@@ -1,12 +1,16 @@
 {
   "name": "@tg-front/source",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@esotericsoftware/spine-pixi-v8": "^4.2.71",
+    "pixi-ease": "^3.0.7",
+    "pixi.js": "^8.7.3",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "signal-js": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
@@ -16,14 +20,14 @@
     "@nx/eslint-plugin": "20.4.0",
     "@nx/jest": "20.4.0",
     "@nx/js": "20.4.0",
-    "@nx/react": "20.4.0",
+    "@nx/react": "^20.1.4",
     "@nx/web": "20.4.0",
     "@nx/webpack": "20.4.0",
     "@nx/workspace": "20.4.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "~1.9.1",
-    "@swc/cli": "~0.3.12",
+    "@swc/cli": "^0.6.0",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@testing-library/dom": "10.4.0",
