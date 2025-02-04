@@ -2,7 +2,7 @@ export class StateMachine<T> {
   // Static instance to ensure a single instance (Singleton)
   private static instance: StateMachine<any> | null = null;
   private currentState: T; // Holds the current state
-  private states: Map<T, Function>; // Stores states and their associated handlers
+  private states: Map<T, () => void>; // Stores states and their handlers
 
   // Private constructor to prevent direct instantiation
   private constructor(initialState: T) {
@@ -21,15 +21,16 @@ export class StateMachine<T> {
   }
 
   // Method to add a state and its handler
-  public addState(state: T, handler: Function): void {
+  public addState(state: T, handler: () => void): void {
     this.states.set(state, handler);
   }
 
   // Method to change the current state and trigger its handler
   public changeState(state: T): void {
-    if (this.states.has(state)) {
+    const handler = this.states.get(state);
+    if (handler) {
       this.currentState = state;
-      this.states.get(state)?.(); // Call the handler for the new state
+      handler(); // Call the handler for the new state
     } else {
       console.error(`State '${String(state)}' not defined`);
     }
