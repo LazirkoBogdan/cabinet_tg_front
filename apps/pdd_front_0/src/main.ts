@@ -1,6 +1,6 @@
 import { Application, Assets, Sprite } from 'pixi.js';
-import { SceneLoader } from './app/core/scenes/SceneLoader';
-import { SplashScene } from './app/core/scenes/SplashScene';
+import { SceneLoader } from './app/core/Scenes/SceneLoader';
+import { SplashScene } from './app/core/Scenes/SplashScene';
 
 (async () => {
   // Create a new application
