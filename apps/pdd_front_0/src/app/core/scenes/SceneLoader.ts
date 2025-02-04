@@ -1,11 +1,11 @@
-import * as PIXI from 'pixi.js';
+import { Application } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
 
 export class SceneLoader {
-    private app: PIXI.Application;
+    private app: Application;
     private currentScene: AbstractScene | null;
 
-    constructor(app: PIXI.Application) {
+    constructor(app: Application) {
         this.app = app;
         this.currentScene = null;
     }

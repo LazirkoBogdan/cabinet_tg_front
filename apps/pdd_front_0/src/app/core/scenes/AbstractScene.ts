@@ -1,9 +1,9 @@
-import * as PIXI from 'pixi.js';
+import { Container } from 'pixi.js';
 
-export abstract class AbstractScene extends PIXI.Container {
+export abstract class AbstractScene extends Container {
     private id: string;
     constructor(params: any) {
-        super(); 
+        super();
         this.id = params.id;
         this.x = params.x;
         this.y = params.y;
