@@ -1,4 +1,4 @@
-class StateMachine<T> {
+export class StateMachine<T> {
   // Static instance to ensure a single instance (Singleton)
   private static instance: StateMachine<any> | null = null;
   private currentState: T; // Holds the current state
