@@ -9,6 +9,7 @@ import { SplashScene } from './app/core/Scenes/SplashScene';
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
 
+  console.error('app', app);
   // Append the application canvas to the document body
   document.body.appendChild(app.canvas);
 
@@ -40,5 +41,6 @@ import { SplashScene } from './app/core/Scenes/SplashScene';
   window.addEventListener('resize', () => {
     bunny.x = app.screen.width / 2;
     bunny.y = app.screen.height / 2;
+    app.resize();
   });
 })();
