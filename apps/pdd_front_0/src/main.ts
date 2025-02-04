@@ -1,6 +1,7 @@
 import { Application, Assets, Sprite } from 'pixi.js';
 import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
+import { BaseScene } from './Core/Scenes/BaseScene';
 
 (async () => {
   // Create a new application
@@ -28,6 +29,7 @@ import { SplashScene } from './Core/Scenes/SplashScene';
 
   app.stage.addChild(bunny);
   sceneLoader.loadScene(new SplashScene({ id: 'splash', x: 0, y: 0 }));
+  sceneLoader.loadScene(new BaseScene({ id: 'base', x: 0, y: 0 }));
 
   // Listen for animate update
   app.ticker.add((time) => {
