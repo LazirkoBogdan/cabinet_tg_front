@@ -1,9 +1,11 @@
 import { Application, Assets, Sprite } from 'pixi.js';
+import { SceneLoader } from './app/core/scenes/SceneLoader';
+import { SplashScene } from './app/core/scenes/SplashScene';
 
 (async () => {
   // Create a new application
   const app = new Application();
-
+  const sceneLoader = new SceneLoader(app);
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
 
@@ -24,6 +26,7 @@ import { Application, Assets, Sprite } from 'pixi.js';
   bunny.y = app.screen.height / 2;
 
   app.stage.addChild(bunny);
+  sceneLoader.loadScene(new SplashScene({ id: 'splash', x: 0, y: 0 }));
 
   // Listen for animate update
   app.ticker.add((time) => {
