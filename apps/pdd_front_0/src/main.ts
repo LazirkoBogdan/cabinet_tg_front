@@ -8,6 +8,8 @@ import { SplashScene } from './Core/Scenes/SplashScene';
   const sceneLoader = new SceneLoader(app);
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
+  //@ts-ignore
+  globalThis.__PIXI_APP__ = app;
 
   console.error('app', app);
   // Append the application canvas to the document body
@@ -27,7 +29,7 @@ import { SplashScene } from './Core/Scenes/SplashScene';
   bunny.y = app.screen.height / 2;
 
   app.stage.addChild(bunny);
-  sceneLoader.loadScene(new SplashScene({ id: 'splash', x: 0, y: 0 }));
+  sceneLoader.loadScene(new SplashScene({ id: 'splash', x: app.view.width / 2, y: app.view.height / 2, width: app.view.width, height: app.view.height }));
 
   // Listen for animate update
   app.ticker.add((time) => {
