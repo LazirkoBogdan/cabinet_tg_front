@@ -1,82 +1,41 @@
-# TgFront
+📦 src
+ ┣ 📂 assets            # Статичні ресурси (зображення, звуки, шрифти)
+ ┃ ┣ 📂 images         # Спрайти кота, інтерфейсу, кімнати
+ ┃ ┣ 📂 sounds         # Звукові ефекти та музика
+ ┃ ┗ 📂 fonts          # Шрифти, якщо потрібно
+ ┣ 📂 core             # Базові класи та менеджери
+ ┃ ┣ 📂 states  
+ ┃ ┣ 📜 Game.ts        # Головний клас гри (ініціалізація PixiJS)
+ ┃ ┣ 📜 SceneManager.ts# Менеджер сцен (перемикання екранів)
+ ┃ ┣ 📜 AssetLoader.ts # Завантаження ресурсів
+ ┃ ┣ 📜 StateMachine.ts # стейт машин
+ ┃ ┗ 📜 EventBus.ts    # Шина подій для обміну даними між об'єктами
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
-
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
-
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
-
-## Finish your CI setup
-
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/wrqPqxn60g)
-
-
-## Run tasks
-
-To run the dev server for your app, use:
-
-```sh
-npx nx serve pdd_front_0
-```
-
-To create a production bundle:
-
-```sh
-npx nx build pdd_front_0
-```
-
-To see all available targets to run for a project, run:
-
-```sh
-npx nx show project pdd_front_0
-```
-
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
-
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Add new projects
-
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
-
-Use the plugin's generator to create new projects.
-
-To generate a new application, use:
-
-```sh
-npx nx g @nx/react:app demo
-```
-
-To generate a new library, use:
-
-```sh
-npx nx g @nx/react:lib mylib
-```
-
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
-
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Install Nx Console
-
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
-
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Useful links
-
-Learn more:
-
-- [Learn more about this workspace setup](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+ ┣ 📂 scenes           # Окремі екрани (сцени) гри
+ ┃ ┣ 📜 HomeScene.ts   # Головний екран з котом
+ ┃ ┣ 📜 ClickerScene.ts# Клікер для заробітку монет
+ ┃ ┣ 📜 RoomScene.ts   # Кімната кота (фон, меблі)
+ ┃ ┗ 📜 StoreScene.ts  # Магазин (кастомізація кота)
+ ┣ 📂 entities         # Ігрові об'єкти
+ ┃ ┣ 📜 Cat.ts         # Клас кота (анімації, статус)
+ ┃ ┣ 📜 Food.ts        # Клас їжі (годування)
+ ┃ ┗ 📜 Item.ts        # Об'єкти в кімнаті (меблі, прикраси)
+ ┣ 📂 ui               # UI-елементи на PixiJS
+ ┃ ┣ 📜 Button.ts      # Кастомна кнопка
+ ┃ ┣ 📜 StatusBar.ts   # Відображення статусу кота
+ ┃ ┗ 📜 Modal.ts       # Попапи (повідомлення, підтвердження)
+ ┣ 📂 store            # Стан гри (якщо потрібен глобальний стейт)
+ ┃ ┣ 📜 GameStore.ts   # Глобальний стан гри (ресурси, кімната)
+ ┃ ┗ 📜 CatStore.ts    # Стан кота (голод, настрій)
+ ┣ 📂 services         # Інтеграції та API-запити
+ ┃ ┣ 📜 telegram.ts    # Робота з Telegram API
+ ┃ ┣ 📜 ton.ts         # Інтеграція з TON (гаманці, покупки)
+ ┃ ┗ 📜 storage.ts     # Локальне збереження даних
+ ┣ 📂 utils            # Утиліти
+ ┃ ┣ 📜 math.ts        # Розрахунки (рандом, форматування)
+ ┃ ┣ 📜 constants.ts   # Константи гри (ціни, ліміти)
+ ┃ ┗ 📜 animations.ts  # Функції для анімацій
+ ┣ 📂 styles           # Глобальні стилі (якщо є CSS)
+ ┃ ┗ 📜 global.css     # Стилі для HTML-обгортки
+ ┣ 📜 index.ts         # Точка входу в додаток (ініціалізація гри)
+ ┗ 📜 config.ts        # Конфігурація (налаштування API, TON, розміри екрану)
