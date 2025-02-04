@@ -29,7 +29,9 @@ import { SplashScene } from './Core/Scenes/SplashScene';
   bunny.y = app.screen.height / 2;
 
   app.stage.addChild(bunny);
-  sceneLoader.loadScene(new SplashScene({ id: 'splash', x: app.view.width / 2, y: app.view.height / 2, width: app.view.width, height: app.view.height }));
+  const splashScene = new SplashScene({ id: 'splash', x: app.view.width / 2, y: app.view.height / 2, width: app.view.width, height: app.view.height });
+
+  sceneLoader.loadScene(new SplashScene(splashScene));
 
   // Listen for animate update
   app.ticker.add((time) => {
@@ -37,6 +39,7 @@ import { SplashScene } from './Core/Scenes/SplashScene';
     // * Delta is 1 if running at 100% performance *
     // * Creates frame-independent transformation *
     bunny.rotation += 0.1 * time.deltaTime;
+    // splashScene.updateLoader();
   });
 
   // Resize event listener
