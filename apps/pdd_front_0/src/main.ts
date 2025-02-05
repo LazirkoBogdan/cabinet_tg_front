@@ -1,6 +1,8 @@
 import { Application, Assets, Sprite } from 'pixi.js';
 import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
+import { signal } from './Core/Service'
+
 
 (async () => {
   // Create a new application
@@ -32,6 +34,10 @@ import { SplashScene } from './Core/Scenes/SplashScene';
   const splashScene = new SplashScene({ id: 'splash', x: app.view.width / 2, y: app.view.height / 2, width: app.view.width, height: app.view.height });
 
   sceneLoader.loadScene(new SplashScene(splashScene));
+
+  signal.on('LOADER:COMPLETE', () => {
+    sceneLoader.unloadScene();
+  })
 
   // setTimeout(() => {
   //   splashScene.updateLoader();

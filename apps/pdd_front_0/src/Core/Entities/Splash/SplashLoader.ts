@@ -1,20 +1,28 @@
-import { Assets, Container, Sprite } from 'pixi.js'
+import { Assets, Container, Graphics, Sprite, BLEND_MODES } from 'pixi.js'
+import { Ease, ease } from 'pixi-ease'
+import { signal } from '../../Service'
+
+
+
 export class SplashLoader extends Container {
     private value: number
     private isFilling: boolean
     protected loaderBG: Sprite
     private loaderFG: Sprite
+    private loaderMask: Graphics
+    private EventManager: any
     constructor() {
         super()
-        console.log('Splash Loader initialized');
-        this.value = 5; // Initial progress value
-        this.isFilling = true; // Flag to control filling direction
+        this.value = 5;
+        this.isFilling = true;
         this.loaderBG = new Sprite();
         this.loaderFG = new Sprite();
+        this.loaderMask = new Graphics();
         this.init();
     }
-    init() {
-        this.initLoaderSprites();
+    async init() {
+        await this.initLoaderSprites();
+        this.initLoaderMask();
     }
 
     async initLoaderSprites() {
@@ -24,6 +32,8 @@ export class SplashLoader extends Container {
         this.loaderFG.texture = loaderFGTexture;
         this.loaderBG.anchor.set(0.5);
         this.loaderFG.anchor.set(0.5);
+        // this.loaderMask.drawRoundedRect(0, 0, 400, 400, 40);
+        // this.loaderMask.endFill();
         // this.loaderBG.x = 500;
         // this.loaderFG.y = 100;
 
@@ -34,28 +44,18 @@ export class SplashLoader extends Container {
 
         this.update();
     }
-    update(width: number = 5) {
 
-        this.loaderFG.width = width;
+    initLoaderMask() {
+        this.loaderMask.fill(0x000000).rect(-this.loaderFG.width / 2, -this.loaderFG.height / 2, this.loaderFG.width, this.loaderFG.height).endFill();
+        this.loaderFG.mask = this.loaderMask;
+        this.addChild(this.loaderMask);
 
-        if (!this.loaderFG) {
-            return;
-        }
-
-
-
-
-        // this.isFilling ? this.value++ :this.value = 0;
-        console.log('this.value', this.value);
-
-        // Reverse direction if bounds are reached
-        if (this.value > 100) {
-            return;
-        }
-
-        // // Update the width of the foreground sprite to simulate progress
-        // / (this.value / 100) * this.loaderBG.width
-
-        console.log('this.loaderFG.width', this.loaderFG.width);
+    }
+    update() {
+        this.loaderMask.x = -this.loaderFG.width;
+        const targetX = 0;
+        ease.add(this.loaderMask, { x: targetX }, { duration: 2000, ease: 'easeInOutSine' }).complete = () => {
+            signal.dispatch('LOADER:COMPLETE');
+        };
     }
 }
