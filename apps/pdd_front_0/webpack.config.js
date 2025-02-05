@@ -6,6 +6,20 @@ module.exports = {
   output: {
     path: join(__dirname, '../../dist/apps/pdd_front_0'),
   },
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: 'assets/[name].[hash].[ext]',
+            },
+          },
+        ],
+      },]
+    },
   devServer: {
     port: 4200,
     historyApiFallback: {

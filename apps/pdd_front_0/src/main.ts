@@ -9,6 +9,8 @@ import { BaseScene } from './Core/Scenes/BaseScene';
   const sceneLoader = new SceneLoader(app);
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
+  //@ts-ignore
+  globalThis.__PIXI_APP__ = app;
 
   console.error('app', app);
   // Append the application canvas to the document body
