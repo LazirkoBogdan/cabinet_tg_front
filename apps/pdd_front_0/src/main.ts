@@ -1,6 +1,7 @@
 import { Application, Assets, Sprite } from 'pixi.js';
 import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
+import { signal } from './Core/Service';
 import { BaseScene } from './Core/Scenes/BaseScene';
 
 (async () => {
@@ -30,8 +31,23 @@ import { BaseScene } from './Core/Scenes/BaseScene';
   bunny.y = app.screen.height / 2;
 
   app.stage.addChild(bunny);
+  const splashScene = new SplashScene({
+    id: 'splash',
+    x: app.view.width / 2,
+    y: app.view.height / 2,
+    width: app.view.width,
+    height: app.view.height,
+  });
   sceneLoader.loadScene(new SplashScene({ id: 'splash', x: 0, y: 0 }));
-  sceneLoader.loadScene(new BaseScene({ id: 'base', x: 0, y: 0 }));
+  sceneLoader.loadScene(new SplashScene(splashScene));
+
+  signal.on('LOADER:COMPLETE', () => {
+    sceneLoader.unloadScene();
+  });
+
+  // setTimeout(() => {
+  //   splashScene.updateLoader();
+  // }, 2000)
 
   // Listen for animate update
   app.ticker.add((time) => {
