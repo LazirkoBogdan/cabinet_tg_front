@@ -2,19 +2,27 @@
   "bundles": [
     {
       "name": "default",
-      "assets": []
-    },
-    {
-      "name": "donwload-content",
-      "assets": []
-    },
-    {
-      "name": "game-menu",
-      "assets": []
-    },
-    {
-      "name": "game-screen",
       "assets": [
+        {
+          "alias": [
+            "game-screen/loader/frame.png"
+          ],
+          "src": [
+            "game-screen/loader/frame.png",
+            "game-screen/loader/frame.webp",
+            "game-screen/loader/frame.avif"
+          ]
+        },
+        {
+          "alias": [
+            "game-screen/loader/progressline.png"
+          ],
+          "src": [
+            "game-screen/loader/progressline.png",
+            "game-screen/loader/progressline.webp",
+            "game-screen/loader/progressline.avif"
+          ]
+        },
         {
           "alias": [
             "game-screen/screen/screen.json"
@@ -25,8 +33,7 @@
           ],
           "data": {
             "tags": {
-              "tps": true,
-              "m": true
+              "tps": true
             }
           }
         },
@@ -37,12 +44,7 @@
           "src": [
             "game-screen/sfx/bg_menu.mp3",
             "game-screen/sfx/bg_menu.ogg"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
+          ]
         },
         {
           "alias": [
@@ -51,12 +53,7 @@
           "src": [
             "game-screen/sfx/ui_button.mp3",
             "game-screen/sfx/ui_button.ogg"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
+          ]
         }
       ]
     },
@@ -94,91 +91,9 @@
             "game-screen/spine/spinach/skeleton.png"
           ],
           "src": [
-            "game-screen/spine/spinach/skeleton@1x.png",
-            "game-screen/spine/spinach/skeleton@0.5x.png",
-            "game-screen/spine/spinach/skeleton@0.5x.webp",
-            "game-screen/spine/spinach/skeleton@1x.webp",
-            "game-screen/spine/spinach/skeleton@0.5x.avif",
-            "game-screen/spine/spinach/skeleton@1x.avif"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "loader",
-      "assets": [
-        {
-          "alias": [
-            "loader/frame.png"
-          ],
-          "src": [
-            "loader/frame@1x.png",
-            "loader/frame@0.5x.png",
-            "loader/frame@1x.webp",
-            "loader/frame@0.5x.webp",
-            "loader/frame@1x.avif",
-            "loader/frame@0.5x.avif"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "alias": [
-            "loader/progress_line.png"
-          ],
-          "src": [
-            "loader/progress_line@1x.png",
-            "loader/progress_line@0.5x.png",
-            "loader/progress_line@1x.webp",
-            "loader/progress_line@0.5x.webp",
-            "loader/progress_line@1x.avif",
-            "loader/progress_line@0.5x.avif"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "preloader-screen",
-      "assets": [
-        {
-          "alias": [
-            "preloader-screen/tps/tps.json"
-          ],
-          "src": [
-            "preloader-screen/tps/tps@1x.json",
-            "preloader-screen/tps/tps@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
-              "m": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "preloader-screen/fonts",
-      "assets": [
-        {
-          "alias": [
-            "preloader-screen/fonts/material-icons.woff2"
-          ],
-          "src": [
-            "preloader-screen/fonts/material-icons.woff2"
+            "game-screen/spine/spinach/skeleton.png",
+            "game-screen/spine/spinach/skeleton.webp",
+            "game-screen/spine/spinach/skeleton.avif"
           ],
           "data": {
             "tags": {

@@ -25,10 +25,10 @@ export class SplashLoader extends Container {
 
   async initLoaderSprites() {
     const loaderBGTexture = await Assets.load(
-      './assets/loader/frame@0.5x.avif'
+      './game-screen/loader/frame.avif'
     );
     const loaderFGTexture = await Assets.load(
-      './assets/loader/progress_line@0.5x.avif'
+      './game-screen/loader/progressline.avif'
     );
     this.loaderBG.texture = loaderBGTexture;
     this.loaderFG.texture = loaderFGTexture;

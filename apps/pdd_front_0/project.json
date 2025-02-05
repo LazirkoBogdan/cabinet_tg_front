@@ -5,5 +5,13 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project pdd_front_0 --web",
-  "targets": {}
+  "targets": {
+    "assets": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx node src/.assetpack.js",
+        "cwd": "apps/pdd_front_0"
+      }
+    }
+  }
 }

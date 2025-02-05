@@ -22,9 +22,11 @@ enum GameState {
 
   await app.init({ background: '#000000', resizeTo: window });
 
+  Assets.resolver.basePath = './assets/';
+
   await Assets.init({ manifest: manifest });
 
-  //Assets.backgroundLoadBundle(['preloader-screen', 'game-screen']);
+  Assets.backgroundLoadBundle(['default']);
 
   //@ts-ignore
   globalThis.__PIXI_APP__ = app;

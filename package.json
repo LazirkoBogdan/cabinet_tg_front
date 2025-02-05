@@ -8,11 +8,10 @@
   "private": true,
   "dependencies": {
     "@esotericsoftware/spine-pixi-v8": "^4.2.71",
-    "@napi-rs/woff-build": "^0.2.0",
-    "@node-rs/crc32": "^1.10.6",
     "@pixi/sound": "^6.0.1",
     "@pixi/ui": "^2.2.1",
     "micro-signals": "^2.4.0",
+    "module-alias": "^2.2.3",
     "pixi-ease": "^3.0.7",
     "pixi.js": "^8.7.3",
     "react": "19.0.0",
