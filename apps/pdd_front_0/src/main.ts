@@ -3,6 +3,7 @@ import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
 import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
+import { BaseScene } from './Core/Scenes/BaseScene';
 
 enum GameState {
   SplashState = 'MainMenu',
@@ -45,10 +46,13 @@ enum GameState {
     width: app.view.width,
     height: app.view.height,
   });
-
-  // setTimeout(() => {
-  //   splashScene.updateLoader();
-  // }, 2000)
+  const baseScene = new BaseScene({
+    id: 'base',
+    x: app.view.width / 2,
+    y: app.view.height / 2,
+    width: app.view.width,
+    height: app.view.height,
+  });
 
   const gameStateMachine = StateMachine.getInstance(GameState.SplashState);
   gameStateMachine.addState(GameState.SplashState, () => {
@@ -68,9 +72,6 @@ enum GameState {
 
   // Listen for animate update
   app.ticker.add((time) => {
-    // Just for fun, let's rotate mr rabbit a little.
-    // * Delta is 1 if running at 100% performance *
-    // * Creates frame-independent transformation *
     bunny.rotation += 0.1 * time.deltaTime;
   });
 
@@ -79,5 +80,14 @@ enum GameState {
     bunny.x = app.screen.width / 2;
     bunny.y = app.screen.height / 2;
     app.resize();
+  });
+
+  // Add click event listener to bunny
+  bunny.interactive = true;
+  (bunny as any).interactive = true;
+  bunny.on('pointerdown', () => {
+    baseScene.x = app.screen.width / 2 - baseScene.width / 2;
+    baseScene.y = app.screen.height / 2 - baseScene.height / 2;
+    sceneLoader.switchScene(baseScene);
   });
 })();

@@ -9,6 +9,7 @@ export class BaseScene extends AbstractScene {
   private happyButton!: Graphics;
   private happyFill!: Graphics;
   private happinessLevel: number = 0;
+  private hoverTimeout: any;
 
   constructor(params: any) {
     super(params);
@@ -47,7 +48,8 @@ export class BaseScene extends AbstractScene {
     this.player.x = window.innerWidth / 2;
     this.player.y = window.innerHeight / 2;
     this.player.eventMode = 'static';
-    this.player.on('pointerdown', this.onPlayerClick, this);
+    this.player.on('pointerover', this.onPlayerHoverStart, this);
+    this.player.on('pointerout', this.onPlayerHoverEnd, this);
     this.addChild(this.player);
   }
 
@@ -94,7 +96,7 @@ export class BaseScene extends AbstractScene {
     this.happyFill.clear();
     this.happyFill.beginFill(0x00ff00);
 
-    const fillHeight = (this.happinessLevel / 1000) * buttonHeight;
+    const fillHeight = (this.happinessLevel / 10000) * buttonHeight;
     this.happyFill.drawRect(
       0,
       buttonHeight - fillHeight,
@@ -104,19 +106,42 @@ export class BaseScene extends AbstractScene {
     this.happyFill.endFill();
   }
 
-  private onPlayerClick(): void {
-    this.clickCount++;
-    this.updateClickText();
+  private onPlayerHoverStart(): void {
+    this.player.on('pointermove', this.onPlayerHoverMove, this);
+    this.player.on('pointerdown', this.onPlayerHoverMove, this);
+  }
 
-    if (this.happinessLevel < 1000) {
-      this.happinessLevel += 10;
-      this.updateHappyFill();
+  private onPlayerHoverEnd(): void {
+    this.player.off('pointermove', this.onPlayerHoverMove, this);
+    this.player.off('pointerdown', this.onPlayerHoverMove, this);
+    clearInterval(this.hoverInterval);
+  }
+
+  private hoverInterval: any;
+
+  private onPlayerHoverMove(): void {
+    if (!this.hoverInterval) {
+      this.hoverInterval = setInterval(() => {
+        this.clickCount++;
+        this.updateClickText();
+
+        if (this.happinessLevel < 10000) {
+          this.happinessLevel += 50;
+          this.updateHappyFill();
+        }
+      }, 100); // Increase every 100ms while moving or clicking
     }
+
+    clearTimeout(this.hoverTimeout);
+    this.hoverTimeout = setTimeout(() => {
+      clearInterval(this.hoverInterval);
+      this.hoverInterval = null;
+    }, 100); // Stop increasing after 100ms of no movement
   }
 
   private updateClickText(): void {
     this.clickText.text = `Clicks: ${this.clickCount}`;
-    console.log(`Player clicked ${this.clickCount} times`);
+    console.log(`Player hovered ${this.clickCount} times`);
   }
 
   private onResize(): void {
