@@ -2,7 +2,14 @@ import { Application, Assets, Sprite } from 'pixi.js';
 import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
 import { signal } from './Core/Service';
-import { BaseScene } from './Core/Scenes/BaseScene';
+import { StateMachine } from './Core/States/StateMachine';
+
+enum GameState {
+  SplashState = 'MainMenu',
+  Playing = 'Playing',
+  Paused = 'Paused',
+  GameOver = 'GameOver',
+}
 
 (async () => {
   // Create a new application
@@ -39,24 +46,25 @@ import { BaseScene } from './Core/Scenes/BaseScene';
     height: app.view.height,
   });
 
-  const splashScene = new SplashScene({
-    id: 'splash',
-    x: app.view.width / 2,
-    y: app.view.height / 2,
-    width: app.view.width,
-    height: app.view.height,
-  });
-  sceneLoader.loadScene(new SplashScene({ id: 'splash', x: 0, y: 0 }));
-  sceneLoader.loadScene(new SplashScene(splashScene));
-  sceneLoader.loadScene(new BaseScene({ id: 'base', x: 0, y: 0 }));
-
-  signal.on('LOADER:COMPLETE', () => {
-    sceneLoader.unloadScene();
-  });
-
   // setTimeout(() => {
   //   splashScene.updateLoader();
   // }, 2000)
+
+  const gameStateMachine = StateMachine.getInstance(GameState.SplashState);
+  gameStateMachine.addState(GameState.SplashState, () => {
+    console.log('Loader is idle');
+    sceneLoader.loadScene(new SplashScene(splashScene));
+    signal.on('LOADER:COMPLETE', () => {
+      sceneLoader.unloadScene();
+    });
+    gameStateMachine.changeState(GameState.Playing);
+  });
+
+  gameStateMachine.addState(GameState.Playing, () => {
+    console.log('Game is playing');
+  });
+
+  gameStateMachine.changeState(GameState.SplashState);
 
   // Listen for animate update
   app.ticker.add((time) => {
