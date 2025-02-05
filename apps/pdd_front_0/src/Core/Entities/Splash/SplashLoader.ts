@@ -28,7 +28,7 @@ export class SplashLoader extends Container {
       './game-screen/loader/frame.avif'
     );
     const loaderFGTexture = await Assets.load(
-      './game-screen/loader/progressline.avif'
+      './game-screen/loader/progressline.webp'
     );
     this.loaderBG.texture = loaderBGTexture;
     this.loaderFG.texture = loaderFGTexture;
