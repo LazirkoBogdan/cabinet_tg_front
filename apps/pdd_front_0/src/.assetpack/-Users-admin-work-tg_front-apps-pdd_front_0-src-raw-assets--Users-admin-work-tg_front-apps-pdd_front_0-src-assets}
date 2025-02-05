@@ -1,6 +1,6 @@
 {
     "signature": "bc84e8b40d0f41b76aecced935fc2651d4d80b040123",
-    "time": 1738772206072,
+    "time": 1738772901110,
     "tree": {
         "fileTags": {},
         "files": {
@@ -222,7 +222,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -239,7 +239,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -256,7 +256,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -273,7 +273,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -315,7 +315,7 @@
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.mp3",
                                         "isFolder": false,
                                         "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/sfx/bg_menu.mp3",
-                                        "time": 1738772200412,
+                                        "time": 1738772895451,
                                         "fileTags": {},
                                         "pathTags": {
                                             "m": true
@@ -327,7 +327,7 @@
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.ogg",
                                         "isFolder": false,
                                         "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/sfx/bg_menu.mp3",
-                                        "time": 1738772200412,
+                                        "time": 1738772895451,
                                         "fileTags": {},
                                         "pathTags": {
                                             "m": true
@@ -353,7 +353,7 @@
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.mp3",
                                         "isFolder": false,
                                         "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/sfx/ui_button.mp3",
-                                        "time": 1738772200412,
+                                        "time": 1738772895451,
                                         "fileTags": {},
                                         "pathTags": {
                                             "m": true
@@ -365,7 +365,7 @@
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.ogg",
                                         "isFolder": false,
                                         "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/sfx/ui_button.mp3",
-                                        "time": 1738772200412,
+                                        "time": 1738772895451,
                                         "fileTags": {},
                                         "pathTags": {
                                             "m": true
@@ -418,7 +418,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.atlas",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine{m}/spinach/skeleton.atlas",
-                                                "time": 1738772200412,
+                                                "time": 1738772895451,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
@@ -444,7 +444,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.json",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine{m}/spinach/skeleton.json",
-                                                "time": 1738772200412,
+                                                "time": 1738772895451,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
@@ -470,7 +470,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.png",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine{m}/spinach/skeleton.png",
-                                                "time": 1738772200412,
+                                                "time": 1738772895451,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
@@ -531,7 +531,7 @@
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/preloader-screen/fonts/material-icons.woff2",
                                         "isFolder": false,
                                         "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/preloader-screen{m}/fonts{m}/material-icons.woff2",
-                                        "time": 1738772200412,
+                                        "time": 1738772895451,
                                         "fileTags": {},
                                         "pathTags": {
                                             "m": true
@@ -592,7 +592,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/preloader-screen/tps/tps@1x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/preloader-screen{m}/tps{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -609,7 +609,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/preloader-screen/tps/tps@1x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/preloader-screen{m}/tps{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -626,7 +626,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/preloader-screen/tps/tps@0.5x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/preloader-screen{m}/tps{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -643,7 +643,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/preloader-screen/tps/tps@0.5x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/preloader-screen{m}/tps{tps}",
-                                "time": 1738772200412,
+                                "time": 1738772895451,
                                 "fileTags": {
                                     "tps": true
                                 },
