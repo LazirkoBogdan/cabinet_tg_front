@@ -36,6 +36,9 @@ const assetpack = new AssetPack({
   logLevel: 'info',
   //@ts-ignore
   plugins: [
+
+    json(),
+
     //@ts-ignore
     compress(options),
     //@ts-ignore
@@ -76,7 +79,11 @@ const assetpack = new AssetPack({
         },
       ],
     }),
-
+    mipmap({
+      template: "@%%x",
+      resolutions: { default: 1, low: 0.5 }, // { high: 2, default: 1, low: 0.5 }
+      fixedResolution: "default",
+    }),
     pixiManifest({
       output: './assets/manifest.json',
       createShortcuts: false,

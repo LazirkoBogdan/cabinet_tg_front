@@ -94,9 +94,53 @@
             "game-screen/spine/spinach/skeleton.png"
           ],
           "src": [
-            "game-screen/spine/spinach/skeleton.png",
-            "game-screen/spine/spinach/skeleton.webp",
-            "game-screen/spine/spinach/skeleton.avif"
+            "game-screen/spine/spinach/skeleton@1x.png",
+            "game-screen/spine/spinach/skeleton@0.5x.png",
+            "game-screen/spine/spinach/skeleton@0.5x.webp",
+            "game-screen/spine/spinach/skeleton@1x.webp",
+            "game-screen/spine/spinach/skeleton@0.5x.avif",
+            "game-screen/spine/spinach/skeleton@1x.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "loader",
+      "assets": [
+        {
+          "alias": [
+            "loader/frame.png"
+          ],
+          "src": [
+            "loader/frame@1x.png",
+            "loader/frame@0.5x.png",
+            "loader/frame@1x.webp",
+            "loader/frame@0.5x.webp",
+            "loader/frame@1x.avif",
+            "loader/frame@0.5x.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "loader/progress_line.png"
+          ],
+          "src": [
+            "loader/progress_line@1x.png",
+            "loader/progress_line@0.5x.png",
+            "loader/progress_line@1x.webp",
+            "loader/progress_line@0.5x.webp",
+            "loader/progress_line@1x.avif",
+            "loader/progress_line@0.5x.avif"
           ],
           "data": {
             "tags": {
