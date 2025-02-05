@@ -1,44 +1,128 @@
-import { Graphics, Text } from 'pixi.js';
+import { Sprite, Text, Graphics, Assets } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
 
 export class BaseScene extends AbstractScene {
   private clickCount: number = 0;
-  private clickText: Text;
+  private clickText!: Text;
+  private background!: Sprite;
+  private player!: Sprite;
+  private happyButton!: Graphics;
+  private happyFill!: Graphics;
+  private happinessLevel: number = 0;
 
   constructor(params: any) {
     super(params);
+    this.init();
+  }
 
-    const screenWidth = window.innerWidth;
-    const screenHeight = window.innerHeight;
+  private async init(): Promise<void> {
+    await this.loadAssets();
+    this.createUI();
+    this.createHappyButton();
+    window.addEventListener('resize', this.onResize.bind(this));
+  }
 
-    const background = new Graphics();
-    background.beginFill(0xffffff);
-    background.drawRect(0, 0, screenWidth, screenHeight);
-    background.endFill();
-    this.addChild(background);
+  private async loadAssets(): Promise<void> {
+    const [bgTexture, playerTexture] = await Promise.all([
+      Assets.load('./assets/base_screen/bg.png'),
+      Assets.load('./assets/base_screen/kitty.png'),
+    ]);
 
-    const player = new Graphics();
-    player.beginFill(0x00ff00);
-    player.drawCircle(0, 0, 50);
-    player.endFill();
-    player.x = screenWidth / 2;
-    player.y = screenHeight / 2;
-    player.eventMode = 'static';
-    player.on('pointerdown', this.onPlayerClick, this);
-    this.addChild(player);
+    this.background = new Sprite(bgTexture);
+    this.player = new Sprite(playerTexture);
 
+    this.setupBackground();
+    this.setupPlayer();
+  }
+
+  private setupBackground(): void {
+    this.background.width = window.innerWidth;
+    this.background.height = window.innerHeight;
+    this.addChild(this.background);
+  }
+
+  private setupPlayer(): void {
+    this.player.scale.set(0.3);
+    this.player.anchor.set(0.5);
+    this.player.x = window.innerWidth / 2;
+    this.player.y = window.innerHeight / 2;
+    this.player.eventMode = 'static';
+    this.player.on('pointerdown', this.onPlayerClick, this);
+    this.addChild(this.player);
+  }
+
+  private createUI(): void {
     this.clickText = new Text(`Clicks: ${this.clickCount}`, {
-      fontSize: 24,
-      fill: 0x000000,
+      fontSize: 32,
+      fill: 0xff0000,
+      fontWeight: 'bold',
     });
-    this.clickText.x = 10;
-    this.clickText.y = 10;
+
+    this.clickText.position.set(20, 20);
     this.addChild(this.clickText);
+  }
+
+  private createHappyButton(): void {
+    const buttonWidth = 120;
+    const buttonHeight = 100;
+
+    this.happyButton = new Graphics();
+    this.happyButton.lineStyle(2, 0x000000);
+    this.happyButton.drawRoundedRect(0, 0, buttonWidth, buttonHeight, 10);
+    this.happyButton.position.set(20, 60);
+    this.addChild(this.happyButton);
+
+    this.happyFill = new Graphics();
+    this.happyButton.addChild(this.happyFill);
+
+    const buttonText = new Text('Happiness', {
+      fontSize: 18,
+      fill: 0x000000,
+      fontWeight: 'bold',
+    });
+    buttonText.anchor.set(0.5);
+    buttonText.position.set(buttonWidth / 2, buttonHeight / 2);
+    this.happyButton.addChild(buttonText);
+
+    this.updateHappyFill();
+  }
+
+  private updateHappyFill(): void {
+    const buttonWidth = 120;
+    const buttonHeight = 100;
+
+    this.happyFill.clear();
+    this.happyFill.beginFill(0x00ff00);
+
+    const fillHeight = (this.happinessLevel / 1000) * buttonHeight;
+    this.happyFill.drawRect(
+      0,
+      buttonHeight - fillHeight,
+      buttonWidth,
+      fillHeight
+    );
+    this.happyFill.endFill();
   }
 
   private onPlayerClick(): void {
     this.clickCount++;
+    this.updateClickText();
+
+    if (this.happinessLevel < 1000) {
+      this.happinessLevel += 10;
+      this.updateHappyFill();
+    }
+  }
+
+  private updateClickText(): void {
     this.clickText.text = `Clicks: ${this.clickCount}`;
     console.log(`Player clicked ${this.clickCount} times`);
+  }
+
+  private onResize(): void {
+    this.background.width = window.innerWidth;
+    this.background.height = window.innerHeight;
+    this.player.x = window.innerWidth / 2;
+    this.player.y = window.innerHeight / 2;
   }
 }
