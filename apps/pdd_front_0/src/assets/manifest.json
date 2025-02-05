@@ -1,0 +1,148 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "donwload-content",
+      "assets": []
+    },
+    {
+      "name": "game-menu",
+      "assets": []
+    },
+    {
+      "name": "game-screen",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/screen/screen.json"
+          ],
+          "src": [
+            "game-screen/screen/screen@1x.json",
+            "game-screen/screen/screen@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/sfx/bg_menu.mp3"
+          ],
+          "src": [
+            "game-screen/sfx/bg_menu.mp3",
+            "game-screen/sfx/bg_menu.ogg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/sfx/ui_button.mp3"
+          ],
+          "src": [
+            "game-screen/sfx/ui_button.mp3",
+            "game-screen/sfx/ui_button.ogg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game-screen/spine",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.atlas"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.atlas"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.json"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.png"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.png",
+            "game-screen/spine/spinach/skeleton.webp",
+            "game-screen/spine/spinach/skeleton.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "preloader-screen",
+      "assets": [
+        {
+          "alias": [
+            "preloader-screen/tps/tps.json"
+          ],
+          "src": [
+            "preloader-screen/tps/tps@1x.json",
+            "preloader-screen/tps/tps@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "preloader-screen/fonts",
+      "assets": [
+        {
+          "alias": [
+            "preloader-screen/fonts/material-icons.woff2"
+          ],
+          "src": [
+            "preloader-screen/fonts/material-icons.woff2"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
