@@ -15,6 +15,16 @@
         },
         {
           "alias": [
+            "game-screen/loader/living_room.jpg"
+          ],
+          "src": [
+            "game-screen/loader/living_room.jpg",
+            "game-screen/loader/living_room.webp",
+            "game-screen/loader/living_room.avif"
+          ]
+        },
+        {
+          "alias": [
             "game-screen/loader/progressline.png"
           ],
           "src": [
