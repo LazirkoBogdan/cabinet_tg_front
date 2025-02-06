@@ -9,6 +9,44 @@
       "assets": [
         {
           "alias": [
+            "bundle/background_land.jpg",
+            "background_land.jpg"
+          ],
+          "src": [
+            "bundle/background_land-yox0ZA.avif",
+            "bundle/background_land-Y_U6lw.webp",
+            "bundle/background_land-nf1L@0.5x.avif",
+            "bundle/background_land-dTtzjg@0.5x.webp",
+            "bundle/background_land-clqt.jpg",
+            "bundle/background_land-0L9V-Q@0.5x.jpg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/background_port.jpg",
+            "background_port.jpg"
+          ],
+          "src": [
+            "bundle/background_port-YdX5uw@0.5x.jpg",
+            "bundle/background_port-mIydBQ.webp",
+            "bundle/background_port-kBVlQw@0.5x.avif",
+            "bundle/background_port-f4ClDQ.jpg",
+            "bundle/background_port-8JQmhg.avif",
+            "bundle/background_port-2binFQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
             "bundle/frame.png",
             "frame.png"
           ],

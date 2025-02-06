@@ -32,19 +32,17 @@ export class BaseScene extends AbstractScene {
       atlas: 'cat.atlas',
     });
 
-    this.player.x = 960;
-    this.player.y = 540;
-
     this.player.state.setAnimation(0, 'idle', true);
 
     this.setupPlayer();
   }
 
   private setupPlayer(): void {
-    this.player.scale.set(0.3);
+    // this.player.scale.set(0.3);
 
-    this.player.x = window.innerWidth / 2;
-    this.player.y = window.innerHeight / 2;
+    this.player.x = 360;
+    this.player.y = 600;
+    this.player.scale.set(0.5);
     this.player.eventMode = 'static';
     this.player.on('pointerover', this.onPlayerHoverStart, this);
     this.player.on('pointerout', this.onPlayerHoverEnd, this);
@@ -64,7 +62,7 @@ export class BaseScene extends AbstractScene {
   private createUI(): void {
     this.clickText = new Text(`Clicks: ${this.clickCount}`, {
       fontSize: 64,
-      fill: 0xff0000,
+      fill: 0xffffff,
       fontWeight: 'bold',
     });
 
@@ -163,7 +161,7 @@ export class BaseScene extends AbstractScene {
     this.hoverTimeout = setTimeout(() => {
       clearInterval(this.hoverInterval);
       this.hoverInterval = null;
-    }, 100); // Stop increasing after 100ms of no movement
+    }, 100);
   }
 
   private updateClickText(): void {

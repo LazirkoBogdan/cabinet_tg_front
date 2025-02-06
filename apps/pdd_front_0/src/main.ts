@@ -36,7 +36,7 @@ enum GameState {
   await Assets.loadBundle('bundle').then(async (res) => {
     // Load the bunny texture
 
-    const texture = Assets.cache.get('living_room.jpg');
+    const texture = Assets.cache.get('background_land.jpg');
 
     // Create a bunny Sprite
     const bg = new Sprite(texture);
