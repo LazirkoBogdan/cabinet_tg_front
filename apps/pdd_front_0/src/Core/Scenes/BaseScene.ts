@@ -1,15 +1,19 @@
 import { Sprite, Text, Graphics, Assets } from 'pixi.js';
+import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { AbstractScene } from './AbstractScene';
+import { sound } from '@pixi/sound';
 
 export class BaseScene extends AbstractScene {
   private clickCount = 0;
   private clickText!: Text;
   private background!: Sprite;
-  private player!: Sprite;
+  private player!: Spine;
   private happyButton!: Graphics;
   private happyFill!: Graphics;
   private happinessLevel = 0;
   private hoverTimeout: any;
+  private animationPlaying = false;
+  private lastSoundPlayed = '';
 
   constructor(params: any) {
     super(params);
@@ -20,42 +24,46 @@ export class BaseScene extends AbstractScene {
     await this.loadAssets();
     this.createUI();
     this.createHappyButton();
-    window.addEventListener('resize', this.onResize.bind(this));
   }
 
   private async loadAssets(): Promise<void> {
-    const [bgTexture, playerTexture] = await Promise.all([
-      Assets.load('./base-screen/Background.png'),
-      Assets.load('./base-screen/kitty.png'),
-    ]);
+    this.player = Spine.from({
+      skeleton: 'cat.json',
+      atlas: 'cat.atlas',
+    });
 
-    this.background = new Sprite(bgTexture);
-    this.player = new Sprite(playerTexture);
+    this.player.x = 960;
+    this.player.y = 540;
 
-    this.setupBackground();
+    this.player.state.setAnimation(0, 'idle', true);
+
     this.setupPlayer();
-  }
-
-  private setupBackground(): void {
-    this.background.width = window.innerWidth;
-    this.background.height = window.innerHeight;
-    this.addChild(this.background);
   }
 
   private setupPlayer(): void {
     this.player.scale.set(0.3);
-    this.player.anchor.set(0.5);
+
     this.player.x = window.innerWidth / 2;
     this.player.y = window.innerHeight / 2;
     this.player.eventMode = 'static';
     this.player.on('pointerover', this.onPlayerHoverStart, this);
     this.player.on('pointerout', this.onPlayerHoverEnd, this);
     this.addChild(this.player);
+
+    const bgSound = Assets.cache.get('1621_Background_Guitar_loop.wav');
+    sound.add('bg', bgSound);
+    sound.play('bg', { loop: true });
+
+    const meow = Assets.cache.get('meow.wav');
+    sound.add('meow', meow);
+
+    const purr = Assets.cache.get('purr_meow.wav');
+    sound.add('purr', purr);
   }
 
   private createUI(): void {
     this.clickText = new Text(`Clicks: ${this.clickCount}`, {
-      fontSize: 32,
+      fontSize: 64,
       fill: 0xff0000,
       fontWeight: 'bold',
     });
@@ -78,7 +86,7 @@ export class BaseScene extends AbstractScene {
     this.happyButton.addChild(this.happyFill);
 
     const buttonText = new Text('Happiness', {
-      fontSize: 18,
+      fontSize: 30,
       fill: 0x000000,
       fontWeight: 'bold',
     });
@@ -121,6 +129,25 @@ export class BaseScene extends AbstractScene {
 
   private onPlayerHoverMove(): void {
     if (!this.hoverInterval) {
+      if (!this.animationPlaying) {
+        this.animationPlaying = true;
+        this.player.state.setAnimation(0, 'happy', false);
+        const previousSound = this.lastSoundPlayed;
+        let catReaction;
+        do {
+          catReaction = Math.random() > 0.5 ? 'purr' : 'meow';
+        } while (catReaction === previousSound);
+        this.lastSoundPlayed = catReaction;
+
+        sound.play(catReaction, { loop: false });
+        this.player.state.addListener({
+          complete: () => {
+            this.animationPlaying = false;
+            this.player.state.setAnimation(0, 'idle', true);
+          },
+        });
+      }
+
       this.hoverInterval = setInterval(() => {
         this.clickCount++;
         this.updateClickText();
@@ -129,7 +156,7 @@ export class BaseScene extends AbstractScene {
           this.happinessLevel += 50;
           this.updateHappyFill();
         }
-      }, 100); // Increase every 100ms while moving or clicking
+      }, 100);
     }
 
     clearTimeout(this.hoverTimeout);
@@ -142,12 +169,5 @@ export class BaseScene extends AbstractScene {
   private updateClickText(): void {
     this.clickText.text = `Clicks: ${this.clickCount}`;
     console.log(`Player hovered ${this.clickCount} times`);
-  }
-
-  private onResize(): void {
-    this.background.width = window.innerWidth;
-    this.background.height = window.innerHeight;
-    this.player.x = window.innerWidth / 2;
-    this.player.y = window.innerHeight / 2;
   }
 }
