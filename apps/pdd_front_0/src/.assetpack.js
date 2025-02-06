@@ -1,13 +1,13 @@
-import { rm } from 'fs/promises';
+const { rm } = require('fs/promises');
 
-import { AssetPack } from '@assetpack/core';
-import { compress } from '@assetpack/plugin-compress';
-import { pixiTexturePacker } from '@assetpack/plugin-texture-packer';
-import { ffmpeg } from '@assetpack/plugin-ffmpeg';
-import { json } from '@assetpack/plugin-json';
-import { pixiManifest } from '@assetpack/plugin-manifest';
-import { mipmap } from '@assetpack/plugin-mipmap';
-import { webfont } from '@assetpack/plugin-webfont';
+const { AssetPack } = require('@assetpack/core');
+const { compress } = require('@assetpack/plugin-compress');
+const { pixiTexturePacker } = require('@assetpack/plugin-texture-packer');
+const { ffmpeg } = require('@assetpack/plugin-ffmpeg');
+const { json } = require('@assetpack/plugin-json');
+const { pixiManifest } = require('@assetpack/plugin-manifest');
+const { mipmap } = require('@assetpack/plugin-mipmap');
+const { webfont } = require('@assetpack/plugin-webfont');
 
 const options = {
   jpg: { quality: 90 },
@@ -15,12 +15,12 @@ const options = {
   avif: { quality: 90, alphaQuality: 80 },
 };
 
-const assetsFolder = './src/assets';
 
-await rm(assetsFolder, { recursive: true, force: true });
+
 async function runAssetPack() {
-  // await rm(assetsCache, { recursive: true, force: true });
+  const assetsFolder = './src/assets';
 
+ await  rm(assetsFolder, { recursive: true, force: true });
   const assetpack = new AssetPack({
     entry: './src/raw-assets',
     output: assetsFolder,
@@ -83,4 +83,4 @@ async function runAssetPack() {
   await assetpack.run();
 }
 
-await runAssetPack().catch(console.error);
+ runAssetPack().catch(console.error);

@@ -27,6 +27,7 @@ enum GameState {
 
   Assets.backgroundLoadBundle(['default']);
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   //@ts-ignore
   globalThis.__PIXI_APP__ = app;
 
