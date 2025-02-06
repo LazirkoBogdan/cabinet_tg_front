@@ -13,7 +13,7 @@ import { webfont } from '@assetpack/plugin-webfont';
 const options = {
   jpg: { quality: 90 },
   webp: { quality: 80, alphaQuality: 80 },
-  avif: { quality: 90 },
+  avif: { quality: 90, alphaQuality: 80 },
 };
 
 const assetsFolder = './src/assets';
