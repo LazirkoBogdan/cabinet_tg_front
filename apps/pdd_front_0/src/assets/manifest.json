@@ -5,6 +5,26 @@
       "assets": [
         {
           "alias": [
+            "base-screen/Background.png"
+          ],
+          "src": [
+            "base-screen/Background.png",
+            "base-screen/Background.webp",
+            "base-screen/Background.avif"
+          ]
+        },
+        {
+          "alias": [
+            "base-screen/kitty.png"
+          ],
+          "src": [
+            "base-screen/kitty.png",
+            "base-screen/kitty.webp",
+            "base-screen/kitty.avif"
+          ]
+        },
+        {
+          "alias": [
             "game-screen/loader/frame.png"
           ],
           "src": [

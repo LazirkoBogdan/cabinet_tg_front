@@ -1,0 +1,557 @@
+{
+    "signature": "9e16f92efa262603dca5c7f0d758f1e25bcc3b4201234",
+    "time": 1738837895357,
+    "tree": {
+        "fileTags": {},
+        "files": {
+            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen": {
+                "isFolder": true,
+                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets",
+                "time": 1738837710683.73,
+                "fileTags": {},
+                "pathTags": {},
+                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                "state": "added",
+                "files": {
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png": {
+                        "isFolder": false,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                        "time": 1738837710685.8245,
+                        "fileTags": {},
+                        "pathTags": {},
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png",
+                        "state": "added",
+                        "files": {},
+                        "transformed": [
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/base-screen/Background.png",
+                                "isFolder": false,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png",
+                                "time": 1738837887654,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "transformId": null,
+                                "transformData": {}
+                            }
+                        ]
+                    },
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png": {
+                        "isFolder": false,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                        "time": 1738837710670.5972,
+                        "fileTags": {},
+                        "pathTags": {},
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png",
+                        "state": "added",
+                        "files": {},
+                        "transformed": [
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/base-screen/kitty.png",
+                                "isFolder": false,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png",
+                                "time": 1738837887654,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "transformId": null,
+                                "transformData": {}
+                            }
+                        ]
+                    }
+                },
+                "transformed": []
+            },
+            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen": {
+                "isFolder": true,
+                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets",
+                "time": 1738835052454.978,
+                "fileTags": {},
+                "pathTags": {},
+                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
+                "state": "added",
+                "files": {
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader": {
+                        "isFolder": true,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
+                        "time": 1738837278714.587,
+                        "fileTags": {},
+                        "pathTags": {},
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                        "state": "added",
+                        "files": {
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png": {
+                                "isFolder": false,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "time": 1738835052449.2603,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/frame.png",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": null,
+                                        "transformData": {}
+                                    }
+                                ]
+                            },
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg": {
+                                "isFolder": false,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "time": 1738837278716.6,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/living_room.jpg",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": null,
+                                        "transformData": {}
+                                    }
+                                ]
+                            },
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png": {
+                                "isFolder": false,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "time": 1738835052449.4822,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/progressline.png",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": null,
+                                        "transformData": {}
+                                    }
+                                ]
+                            }
+                        },
+                        "transformed": []
+                    },
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}": {
+                        "isFolder": true,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
+                        "time": 1738835052449.5881,
+                        "fileTags": {
+                            "tps": true
+                        },
+                        "pathTags": {
+                            "tps": true
+                        },
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                        "state": "added",
+                        "files": {
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle": {
+                                "isFolder": true,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                                "time": 1738835052451.514,
+                                "fileTags": {},
+                                "pathTags": {
+                                    "tps": true
+                                },
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                "state": "added",
+                                "files": {
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_1.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052449.8354,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_1.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_10.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052450.0974,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_10.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_3.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052450.322,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_3.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_4.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052450.5396,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_4.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_5.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052450.758,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_5.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_6.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052450.9814,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_6.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_7.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052451.2397,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_7.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_8.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052451.4753,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_8.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_9.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle",
+                                        "time": 1738835052451.6729,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "tps": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}/particle/coin_9.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": []
+                                    }
+                                },
+                                "transformed": []
+                            }
+                        },
+                        "transformed": [
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.json",
+                                "isFolder": true,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                                "time": 1738837887654,
+                                "fileTags": {
+                                    "tps": true
+                                },
+                                "pathTags": {
+                                    "tps": true
+                                },
+                                "transformId": "tps",
+                                "transformData": {
+                                    "prefix": "@1x"
+                                }
+                            },
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.png",
+                                "isFolder": true,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                                "time": 1738837887654,
+                                "fileTags": {
+                                    "tps": true
+                                },
+                                "pathTags": {
+                                    "tps": true
+                                },
+                                "transformId": "tps",
+                                "transformData": {
+                                    "prefix": "@1x"
+                                }
+                            },
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.json",
+                                "isFolder": true,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                                "time": 1738837887654,
+                                "fileTags": {
+                                    "tps": true
+                                },
+                                "pathTags": {
+                                    "tps": true
+                                },
+                                "transformId": "tps",
+                                "transformData": {
+                                    "prefix": "@0.5x"
+                                }
+                            },
+                            {
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.png",
+                                "isFolder": true,
+                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
+                                "time": 1738837887654,
+                                "fileTags": {
+                                    "tps": true
+                                },
+                                "pathTags": {
+                                    "tps": true
+                                },
+                                "transformId": "tps",
+                                "transformData": {
+                                    "prefix": "@0.5x"
+                                }
+                            }
+                        ]
+                    },
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx": {
+                        "isFolder": true,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
+                        "time": 1738835052454.7405,
+                        "fileTags": {},
+                        "pathTags": {},
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
+                        "state": "added",
+                        "files": {
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3": {
+                                "isFolder": false,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
+                                "time": 1738835052454.6616,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.mp3",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": "ffmpeg",
+                                        "transformData": {}
+                                    },
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.ogg",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": "ffmpeg",
+                                        "transformData": {}
+                                    }
+                                ]
+                            },
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3": {
+                                "isFolder": false,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
+                                "time": 1738835052454.9397,
+                                "fileTags": {},
+                                "pathTags": {},
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.mp3",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": "ffmpeg",
+                                        "transformData": {}
+                                    },
+                                    {
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.ogg",
+                                        "isFolder": false,
+                                        "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
+                                        "time": 1738837887654,
+                                        "fileTags": {},
+                                        "pathTags": {},
+                                        "transformId": "ffmpeg",
+                                        "transformData": {}
+                                    }
+                                ]
+                            }
+                        },
+                        "transformed": []
+                    },
+                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}": {
+                        "isFolder": true,
+                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
+                        "time": 1738835052455.0305,
+                        "fileTags": {
+                            "m": true
+                        },
+                        "pathTags": {
+                            "m": true
+                        },
+                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}",
+                        "state": "added",
+                        "files": {
+                            "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach": {
+                                "isFolder": true,
+                                "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}",
+                                "time": 1738835052455.5696,
+                                "fileTags": {},
+                                "pathTags": {
+                                    "m": true
+                                },
+                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach",
+                                "state": "added",
+                                "files": {
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.atlas": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach",
+                                        "time": 1738835052455.258,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.atlas",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": [
+                                            {
+                                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.atlas",
+                                                "isFolder": false,
+                                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.atlas",
+                                                "time": 1738837887654,
+                                                "fileTags": {},
+                                                "pathTags": {
+                                                    "m": true
+                                                },
+                                                "transformId": null,
+                                                "transformData": {}
+                                            }
+                                        ]
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.json": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach",
+                                        "time": 1738835052455.519,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.json",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": [
+                                            {
+                                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.json",
+                                                "isFolder": false,
+                                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.json",
+                                                "time": 1738837887654,
+                                                "fileTags": {},
+                                                "pathTags": {
+                                                    "m": true
+                                                },
+                                                "transformId": null,
+                                                "transformData": {}
+                                            }
+                                        ]
+                                    },
+                                    "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.png": {
+                                        "isFolder": false,
+                                        "parent": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach",
+                                        "time": 1738835052455.8489,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
+                                        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.png",
+                                        "state": "added",
+                                        "files": {},
+                                        "transformed": [
+                                            {
+                                                "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.png",
+                                                "isFolder": false,
+                                                "creator": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.png",
+                                                "time": 1738837887654,
+                                                "fileTags": {},
+                                                "pathTags": {
+                                                    "m": true
+                                                },
+                                                "transformId": null,
+                                                "transformData": {}
+                                            }
+                                        ]
+                                    }
+                                },
+                                "transformed": []
+                            }
+                        },
+                        "transformed": []
+                    }
+                },
+                "transformed": []
+            }
+        },
+        "isFolder": true,
+        "parent": null,
+        "path": "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/raw-assets",
+        "state": "modified",
+        "pathTags": {},
+        "transformed": []
+    }
+}
