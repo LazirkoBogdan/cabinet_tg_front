@@ -71,7 +71,7 @@ enum GameState {
   gameStateMachine.addState(GameState.SplashState, () => {
     console.log('Loader is idle');
     splashScene.x = -app.view.width / 2;
-    sceneLoader.loadScene(new SplashScene(splashScene), { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
+    sceneLoader.loadScene(splashScene, { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
     signal.on('LOADER:COMPLETE', () => {
       // sceneLoader.unloadScene();
       gameStateMachine.changeState(GameState.Playing);

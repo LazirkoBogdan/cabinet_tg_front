@@ -11,6 +11,11 @@ export class SceneLoader {
         this.currentScene = null;
     }
 
+      /**
+   * Usage example
+   * sceneLoader.loadScene(splashScene, { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
+   */
+
     public loadScene(scene: AbstractScene, animation: object = {}, duration: object = {duration :0}): void {
         if (this.currentScene) {
             this.unloadScene();
