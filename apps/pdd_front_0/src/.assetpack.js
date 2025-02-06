@@ -20,7 +20,7 @@ const options = {
 async function runAssetPack() {
   const assetsFolder = './src/assets';
 
- await  rm(assetsFolder, { recursive: true, force: true });
+
   const assetpack = new AssetPack({
     entry: './src/raw-assets',
     output: assetsFolder,
@@ -69,7 +69,7 @@ async function runAssetPack() {
           removeFileExtension: true,
         },
       }),
-      compress(options),
+
       webfont(),
       pixiManifest({
         output: './src/assets/manifest.json',
@@ -83,4 +83,4 @@ async function runAssetPack() {
   await assetpack.run();
 }
 
- runAssetPack().catch(console.error);
+runAssetPack().catch(console.error);

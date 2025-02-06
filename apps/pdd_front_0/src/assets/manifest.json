@@ -5,56 +5,6 @@
       "assets": [
         {
           "alias": [
-            "base-screen/Background.png"
-          ],
-          "src": [
-            "base-screen/Background.png",
-            "base-screen/Background.webp",
-            "base-screen/Background.avif"
-          ]
-        },
-        {
-          "alias": [
-            "base-screen/kitty.png"
-          ],
-          "src": [
-            "base-screen/kitty.png",
-            "base-screen/kitty.webp",
-            "base-screen/kitty.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/frame.png"
-          ],
-          "src": [
-            "game-screen/loader/frame.png",
-            "game-screen/loader/frame.webp",
-            "game-screen/loader/frame.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/living_room.jpg"
-          ],
-          "src": [
-            "game-screen/loader/living_room.jpg",
-            "game-screen/loader/living_room.webp",
-            "game-screen/loader/living_room.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/progressline.png"
-          ],
-          "src": [
-            "game-screen/loader/progressline.png",
-            "game-screen/loader/progressline.webp",
-            "game-screen/loader/progressline.avif"
-          ]
-        },
-        {
-          "alias": [
             "game-screen/screen/screen.json"
           ],
           "src": [
@@ -66,24 +16,94 @@
               "tps": true
             }
           }
+        }
+      ]
+    },
+    {
+      "name": "base-screen",
+      "assets": [
+        {
+          "alias": [
+            "base-screen/Background.png"
+          ],
+          "src": [
+            "base-screen/Background.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
         },
         {
           "alias": [
-            "game-screen/sfx/bg_menu.mp3"
+            "base-screen/kitty.png"
           ],
           "src": [
-            "game-screen/sfx/bg_menu.mp3",
-            "game-screen/sfx/bg_menu.ogg"
-          ]
+            "base-screen/kitty.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game-screen/loader",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/loader/frame.png"
+          ],
+          "src": [
+            "game-screen/loader/frame.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
         },
         {
           "alias": [
-            "game-screen/sfx/ui_button.mp3"
+            "game-screen/loader/living_room.jpg"
           ],
           "src": [
-            "game-screen/sfx/ui_button.mp3",
-            "game-screen/sfx/ui_button.ogg"
-          ]
+            "game-screen/loader/living_room.jpg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/loader/progressline.png"
+          ],
+          "src": [
+            "game-screen/loader/progressline.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/loader/ring.png"
+          ],
+          "src": [
+            "game-screen/loader/ring.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
         }
       ]
     },
@@ -121,9 +141,7 @@
             "game-screen/spine/spinach/skeleton.png"
           ],
           "src": [
-            "game-screen/spine/spinach/skeleton.png",
-            "game-screen/spine/spinach/skeleton.webp",
-            "game-screen/spine/spinach/skeleton.avif"
+            "game-screen/spine/spinach/skeleton.png"
           ],
           "data": {
             "tags": {

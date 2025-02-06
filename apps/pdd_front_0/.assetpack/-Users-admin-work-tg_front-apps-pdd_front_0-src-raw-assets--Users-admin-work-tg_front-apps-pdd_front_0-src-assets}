@@ -1,57 +1,69 @@
 {
-    "signature": "dbb789f9b92336b6ac97b1ac2085159d9fd1ee0701234",
-    "time": 1738840938104,
+    "signature": "dbb789f9b92336b6ac97b1ac2085159d9fd1ee070123",
+    "time": 1738843870348,
     "tree": {
         "fileTags": {},
         "files": {
-            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen": {
+            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}": {
                 "isFolder": true,
                 "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets",
                 "time": 1738840796768.8723,
-                "fileTags": {},
-                "pathTags": {},
-                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                "fileTags": {
+                    "m": true
+                },
+                "pathTags": {
+                    "m": true
+                },
+                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}",
                 "state": "added",
                 "files": {
-                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png": {
+                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/Background.png": {
                         "isFolder": false,
-                        "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                        "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}",
                         "time": 1738840796768.6423,
                         "fileTags": {},
-                        "pathTags": {},
-                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png",
+                        "pathTags": {
+                            "m": true
+                        },
+                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/Background.png",
                         "state": "added",
                         "files": {},
                         "transformed": [
                             {
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/base-screen/Background.png",
                                 "isFolder": false,
-                                "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/Background.png",
-                                "time": 1738840931081,
+                                "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/Background.png",
+                                "time": 1738843865251,
                                 "fileTags": {},
-                                "pathTags": {},
+                                "pathTags": {
+                                    "m": true
+                                },
                                 "transformId": null,
                                 "transformData": {}
                             }
                         ]
                     },
-                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png": {
+                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/kitty.png": {
                         "isFolder": false,
-                        "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen",
+                        "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}",
                         "time": 1738840796770.9202,
                         "fileTags": {},
-                        "pathTags": {},
-                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png",
+                        "pathTags": {
+                            "m": true
+                        },
+                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/kitty.png",
                         "state": "added",
                         "files": {},
                         "transformed": [
                             {
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/base-screen/kitty.png",
                                 "isFolder": false,
-                                "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen/kitty.png",
-                                "time": 1738840931081,
+                                "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/base-screen{m}/kitty.png",
+                                "time": 1738843865251,
                                 "fileTags": {},
-                                "pathTags": {},
+                                "pathTags": {
+                                    "m": true
+                                },
                                 "transformId": null,
                                 "transformData": {}
                             }
@@ -63,82 +75,124 @@
             "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen": {
                 "isFolder": true,
                 "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets",
-                "time": 1738779928840.3232,
+                "time": 1738843516980.281,
                 "fileTags": {},
                 "pathTags": {},
                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
                 "state": "added",
                 "files": {
-                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader": {
+                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}": {
                         "isFolder": true,
                         "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
-                        "time": 1738835234305.7004,
-                        "fileTags": {},
-                        "pathTags": {},
-                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                        "time": 1738843742870.3123,
+                        "fileTags": {
+                            "m": true
+                        },
+                        "pathTags": {
+                            "m": true
+                        },
+                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}",
                         "state": "added",
                         "files": {
-                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png": {
+                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/frame.png": {
                                 "isFolder": false,
-                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}",
                                 "time": 1738775801696.8513,
                                 "fileTags": {},
-                                "pathTags": {},
-                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png",
+                                "pathTags": {
+                                    "m": true
+                                },
+                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/frame.png",
                                 "state": "added",
                                 "files": {},
                                 "transformed": [
                                     {
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/loader/frame.png",
                                         "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/frame.png",
-                                        "time": 1738840931081,
+                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/frame.png",
+                                        "time": 1738843865251,
                                         "fileTags": {},
-                                        "pathTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
                                         "transformId": null,
                                         "transformData": {}
                                     }
                                 ]
                             },
-                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg": {
+                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/living_room.jpg": {
                                 "isFolder": false,
-                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}",
                                 "time": 1738835234308.138,
                                 "fileTags": {},
-                                "pathTags": {},
-                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg",
+                                "pathTags": {
+                                    "m": true
+                                },
+                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/living_room.jpg",
                                 "state": "added",
                                 "files": {},
                                 "transformed": [
                                     {
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/loader/living_room.jpg",
                                         "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/living_room.jpg",
-                                        "time": 1738840931081,
+                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/living_room.jpg",
+                                        "time": 1738843865251,
                                         "fileTags": {},
-                                        "pathTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
                                         "transformId": null,
                                         "transformData": {}
                                     }
                                 ]
                             },
-                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png": {
+                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/progressline.png": {
                                 "isFolder": false,
-                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader",
+                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}",
                                 "time": 1738780076365.235,
                                 "fileTags": {},
-                                "pathTags": {},
-                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png",
+                                "pathTags": {
+                                    "m": true
+                                },
+                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/progressline.png",
                                 "state": "added",
                                 "files": {},
                                 "transformed": [
                                     {
                                         "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/loader/progressline.png",
                                         "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader/progressline.png",
-                                        "time": 1738840931081,
+                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/progressline.png",
+                                        "time": 1738843865251,
                                         "fileTags": {},
-                                        "pathTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
+                                        "transformId": null,
+                                        "transformData": {}
+                                    }
+                                ]
+                            },
+                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/ring.png": {
+                                "isFolder": false,
+                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}",
+                                "time": 1738843742870.4807,
+                                "fileTags": {},
+                                "pathTags": {
+                                    "m": true
+                                },
+                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/ring.png",
+                                "state": "added",
+                                "files": {},
+                                "transformed": [
+                                    {
+                                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring.png",
+                                        "isFolder": false,
+                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/loader{m}/ring.png",
+                                        "time": 1738843865251,
+                                        "fileTags": {},
+                                        "pathTags": {
+                                            "m": true
+                                        },
                                         "transformId": null,
                                         "transformData": {}
                                     }
@@ -297,7 +351,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
-                                "time": 1738840931081,
+                                "time": 1738843865251,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -313,7 +367,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@1x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
-                                "time": 1738840931081,
+                                "time": 1738843865251,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -329,7 +383,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.json",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
-                                "time": 1738840931081,
+                                "time": 1738843865251,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -345,7 +399,7 @@
                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/screen/screen@0.5x.png",
                                 "isFolder": true,
                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/screen{tps}",
-                                "time": 1738840931081,
+                                "time": 1738843865251,
                                 "fileTags": {
                                     "tps": true
                                 },
@@ -358,82 +412,6 @@
                                 }
                             }
                         ]
-                    },
-                    "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx": {
-                        "isFolder": true,
-                        "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen",
-                        "time": 1738773025707.2234,
-                        "fileTags": {},
-                        "pathTags": {},
-                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
-                        "state": "added",
-                        "files": {
-                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3": {
-                                "isFolder": false,
-                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
-                                "time": 1738773025707.1729,
-                                "fileTags": {},
-                                "pathTags": {},
-                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
-                                "state": "added",
-                                "files": {},
-                                "transformed": [
-                                    {
-                                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.mp3",
-                                        "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
-                                        "time": 1738840931081,
-                                        "fileTags": {},
-                                        "pathTags": {},
-                                        "transformId": "ffmpeg",
-                                        "transformData": {}
-                                    },
-                                    {
-                                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/bg_menu.ogg",
-                                        "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/bg_menu.mp3",
-                                        "time": 1738840931081,
-                                        "fileTags": {},
-                                        "pathTags": {},
-                                        "transformId": "ffmpeg",
-                                        "transformData": {}
-                                    }
-                                ]
-                            },
-                            "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3": {
-                                "isFolder": false,
-                                "parent": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx",
-                                "time": 1738773025707.2754,
-                                "fileTags": {},
-                                "pathTags": {},
-                                "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
-                                "state": "added",
-                                "files": {},
-                                "transformed": [
-                                    {
-                                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.mp3",
-                                        "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
-                                        "time": 1738840931081,
-                                        "fileTags": {},
-                                        "pathTags": {},
-                                        "transformId": "ffmpeg",
-                                        "transformData": {}
-                                    },
-                                    {
-                                        "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/sfx/ui_button.ogg",
-                                        "isFolder": false,
-                                        "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/sfx/ui_button.mp3",
-                                        "time": 1738840931081,
-                                        "fileTags": {},
-                                        "pathTags": {},
-                                        "transformId": "ffmpeg",
-                                        "transformData": {}
-                                    }
-                                ]
-                            }
-                        },
-                        "transformed": []
                     },
                     "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}": {
                         "isFolder": true,
@@ -475,7 +453,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.atlas",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.atlas",
-                                                "time": 1738840931081,
+                                                "time": 1738843865251,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
@@ -501,7 +479,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.json",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.json",
-                                                "time": 1738840931081,
+                                                "time": 1738843865251,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
@@ -527,7 +505,7 @@
                                                 "path": "/Users/admin/work/tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/skeleton.png",
                                                 "isFolder": false,
                                                 "creator": "/Users/admin/work/tg_front/apps/pdd_front_0/src/raw-assets/game-screen/spine{m}/spinach/skeleton.png",
-                                                "time": 1738840931081,
+                                                "time": 1738843865251,
                                                 "fileTags": {},
                                                 "pathTags": {
                                                     "m": true
