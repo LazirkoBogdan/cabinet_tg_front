@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { rm } = require('fs/promises');
 
 const { AssetPack } = require('@assetpack/core');
@@ -43,6 +44,22 @@ async function runAssetPack() {
     plugins: [
       ffmpeg({
         inputs: ['.mp3', '.ogg'],
+=======
+import { pixiPipes } from '@assetpack/core/pixi';
+import { AssetPack } from '@assetpack/core';
+const assetsFolder = './src/assets';
+const assetpack = new AssetPack({
+  entry: './src/raw-assets',
+  output: assetsFolder,
+  pipes: [
+    ...pixiPipes({
+      cacheBust: true,
+      resolutions: { default: 1, low: 0.5 },
+      compression: { jpg: true, png: true, avif: true },
+      texturePacker: { nameStyle: 'short' },
+      audio: {
+        inputs: ['.mp3', '.ogg', '.wav'],
+>>>>>>> d0f6375 ([fix] common js)
         outputs: [
           {
             formats: ['.mp3'],
@@ -61,10 +78,9 @@ async function runAssetPack() {
               audioChannels: 1,
               audioFrequency: 22050,
             },
-          }
-        ]
+          },
+        ],
       },
-
 
       manifest: { createShortcuts: true },
     }),
