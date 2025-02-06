@@ -23,6 +23,8 @@ enum GameState {
 
   await Assets.init({ manifest: manifest });
 
+  Assets.resolver.basePath = './assets/';
+
   Assets.backgroundLoadBundle(['default']);
 
   //@ts-ignore
