@@ -17,7 +17,7 @@ const options = {
 };
 
 const assetsFolder = './src/assets';
-const assetsCache = './src/.assetpack';
+
 await rm(assetsFolder, { recursive: true, force: true });
 async function runAssetPack() {
 
