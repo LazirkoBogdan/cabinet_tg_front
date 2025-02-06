@@ -2,13 +2,13 @@ import { Sprite, Text, Graphics, Assets } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
 
 export class BaseScene extends AbstractScene {
-  private clickCount: number = 0;
+  private clickCount = 0;
   private clickText!: Text;
   private background!: Sprite;
   private player!: Sprite;
   private happyButton!: Graphics;
   private happyFill!: Graphics;
-  private happinessLevel: number = 0;
+  private happinessLevel = 0;
   private hoverTimeout: any;
 
   constructor(params: any) {
@@ -25,8 +25,8 @@ export class BaseScene extends AbstractScene {
 
   private async loadAssets(): Promise<void> {
     const [bgTexture, playerTexture] = await Promise.all([
-      Assets.load('./assets/base_screen/bg.png'),
-      Assets.load('./assets/base_screen/kitty.png'),
+      Assets.load('./base-screen/Background.png'),
+      Assets.load('./base-screen/kitty.png'),
     ]);
 
     this.background = new Sprite(bgTexture);

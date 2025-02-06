@@ -1,6 +1,5 @@
 import { rm } from 'fs/promises';
 
-
 import { AssetPack } from '@assetpack/core';
 import { compress } from '@assetpack/plugin-compress';
 import { pixiTexturePacker } from '@assetpack/plugin-texture-packer';
@@ -20,7 +19,6 @@ const assetsFolder = './src/assets';
 
 await rm(assetsFolder, { recursive: true, force: true });
 async function runAssetPack() {
-
   // await rm(assetsCache, { recursive: true, force: true });
 
   const assetpack = new AssetPack({
@@ -28,7 +26,7 @@ async function runAssetPack() {
     output: assetsFolder,
     cacheLocation: './src/.assetpack',
     logLevel: 'info',
-    cache: false,
+    cache: true,
     assetSettings: [
       {
         files: ['**/*.png'],
@@ -43,9 +41,8 @@ async function runAssetPack() {
       },
     ],
     plugins: [
-
       ffmpeg({
-        inputs: ['.mp3', '.ogg', '.wav'],
+        inputs: ['.mp3', '.ogg'],
         outputs: [
           {
             formats: ['.mp3'],
@@ -69,9 +66,8 @@ async function runAssetPack() {
       }),
       pixiTexturePacker({
         texturePacker: {
-
           removeFileExtension: true,
-        }
+        },
       }),
       compress(options),
       webfont(),
@@ -84,10 +80,7 @@ async function runAssetPack() {
     ],
   });
 
-
   await assetpack.run();
 }
 
 await runAssetPack().catch(console.error);
-
-

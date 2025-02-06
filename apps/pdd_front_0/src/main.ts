@@ -18,12 +18,12 @@ enum GameState {
   const app = new Application();
   const sceneLoader = new SceneLoader(app);
   console.error('manifest', manifest);
+
+  Assets.resolver.basePath = './assets/';
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
 
   await Assets.init({ manifest: manifest });
-
-  Assets.resolver.basePath = './assets/';
 
   Assets.backgroundLoadBundle(['default']);
 
