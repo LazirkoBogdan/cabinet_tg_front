@@ -29,6 +29,23 @@
     { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
+  "workspaceLayout": {
+    "appsDir": "apps/*",
+    "libsDir": "libs/*"
+  },
+
+  "targetDefaults": {
+    "assets": {
+      "executor": "nx:run-commands",
+      "cache": true,
+      "inputs": ["default", "^default"],
+      "options": {
+        "command": "npx node src/.assetpack.js",
+        "cwd": "{projectRoot}"
+      }
+    }
+  },
+
   "generators": {
     "@nx/react": {
       "application": {

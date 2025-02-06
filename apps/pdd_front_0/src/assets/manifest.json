@@ -1,0 +1,107 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/loader/frame.png"
+          ],
+          "src": [
+            "game-screen/loader/frame.png",
+            "game-screen/loader/frame.webp",
+            "game-screen/loader/frame.avif"
+          ]
+        },
+        {
+          "alias": [
+            "game-screen/loader/progressline.png"
+          ],
+          "src": [
+            "game-screen/loader/progressline.png",
+            "game-screen/loader/progressline.webp",
+            "game-screen/loader/progressline.avif"
+          ]
+        },
+        {
+          "alias": [
+            "game-screen/screen/screen.json"
+          ],
+          "src": [
+            "game-screen/screen/screen@1x.json",
+            "game-screen/screen/screen@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/sfx/bg_menu.mp3"
+          ],
+          "src": [
+            "game-screen/sfx/bg_menu.mp3",
+            "game-screen/sfx/bg_menu.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "game-screen/sfx/ui_button.mp3"
+          ],
+          "src": [
+            "game-screen/sfx/ui_button.mp3",
+            "game-screen/sfx/ui_button.ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "game-screen/spine",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.atlas"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.atlas"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.json"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/spine/spinach/skeleton.png"
+          ],
+          "src": [
+            "game-screen/spine/spinach/skeleton.png",
+            "game-screen/spine/spinach/skeleton.webp",
+            "game-screen/spine/spinach/skeleton.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+skeleton.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.75
+eye_l
+bounds:2,713,147,44
+eye_r
+bounds:1229,1332,147,44
+mouth
+bounds:2,667,147,44
+slime
+bounds:2,759,1225,617

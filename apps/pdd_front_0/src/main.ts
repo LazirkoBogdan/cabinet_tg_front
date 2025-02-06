@@ -4,6 +4,7 @@ import { SplashScene } from './Core/Scenes/SplashScene';
 import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
 import { BaseScene } from './Core/Scenes/BaseScene';
+import manifest from './assets/manifest.json';
 
 enum GameState {
   SplashState = 'MainMenu',
@@ -16,8 +17,14 @@ enum GameState {
   // Create a new application
   const app = new Application();
   const sceneLoader = new SceneLoader(app);
+  console.error('manifest', manifest);
   // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
+
+  await Assets.init({ manifest: manifest });
+
+  Assets.backgroundLoadBundle(['default']);
+
   //@ts-ignore
   globalThis.__PIXI_APP__ = app;
 
