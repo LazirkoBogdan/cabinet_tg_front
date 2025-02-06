@@ -24,6 +24,32 @@
       "assets": [
         {
           "alias": [
+            "base-screen/1_map.png"
+          ],
+          "src": [
+            "base-screen/1_map.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "base-screen/1_map_1.png"
+          ],
+          "src": [
+            "base-screen/1_map_1.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
             "base-screen/Background.png"
           ],
           "src": [

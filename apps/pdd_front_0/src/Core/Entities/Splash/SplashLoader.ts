@@ -1,4 +1,4 @@
-import { Assets, Container, Graphics, Sprite, BLEND_MODES } from 'pixi.js';
+import { Assets, Container, Graphics, Sprite } from 'pixi.js';
 import { Ease, ease } from 'pixi-ease';
 import { signal } from '../../Service';
 

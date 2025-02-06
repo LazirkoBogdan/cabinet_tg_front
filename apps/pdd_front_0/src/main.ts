@@ -6,6 +6,7 @@ import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
 import { BaseScene } from './Core/Scenes/BaseScene';
 import manifest from './assets/manifest.json';
+import { ease } from 'pixi-ease';
 
 enum GameState {
   SplashState = 'MainMenu',
@@ -69,15 +70,19 @@ enum GameState {
   const gameStateMachine = StateMachine.getInstance(GameState.SplashState);
   gameStateMachine.addState(GameState.SplashState, () => {
     console.log('Loader is idle');
-    sceneLoader.loadScene(new SplashScene(splashScene));
+    splashScene.x = -app.view.width / 2;
+    sceneLoader.loadScene(new SplashScene(splashScene), { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
     signal.on('LOADER:COMPLETE', () => {
-      sceneLoader.unloadScene();
+      // sceneLoader.unloadScene();
+      gameStateMachine.changeState(GameState.Playing);
     });
-    gameStateMachine.changeState(GameState.Playing);
   });
 
   gameStateMachine.addState(GameState.Playing, () => {
     console.log('Game is playing');
+    // baseScene.x = -app.view.width / 2;
+    // sceneLoader.loadScene(baseScene, { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
+
   });
 
   gameStateMachine.changeState(GameState.SplashState);
