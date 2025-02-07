@@ -8,6 +8,8 @@ out-tsc
 # dependencies
 node_modules
 
+**/
+
 # IDEs and editors
 /.idea
 .project
@@ -24,10 +26,15 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 
+**/assets/*
+
+**/.assetpack/*
+
 */*/node_modules
 */*/dist
-**/**/assets
-**/**/.assetpack
+*/*/*/assets
+*/*/.assetpack
+*/*/.assetpack
 */*/tmp
 */*/out-tsc
 
