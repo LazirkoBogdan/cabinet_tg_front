@@ -127,8 +127,8 @@
             "1621_Background_Guitar_30sec.mp3"
           ],
           "src": [
-            "bundle/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3",
-            "bundle/sfx/1621_Background_Guitar_30sec-4nRmdw.ogg"
+            "bundle/sfx/1621_Background_Guitar_30sec-unKu1w.ogg",
+            "bundle/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3"
           ],
           "data": {
             "tags": {
@@ -142,7 +142,7 @@
             "1621_Background_Guitar_loop.wav"
           ],
           "src": [
-            "bundle/sfx/1621_Background_Guitar_loop-b6lvEg.ogg",
+            "bundle/sfx/1621_Background_Guitar_loop-yq1drg.ogg",
             "bundle/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3"
           ],
           "data": {
@@ -157,7 +157,7 @@
             "meow.wav"
           ],
           "src": [
-            "bundle/sfx/meow-IudFlw.ogg",
+            "bundle/sfx/meow-EsFOxw.ogg",
             "bundle/sfx/meow-1s5OKA.mp3"
           ],
           "data": {
@@ -172,7 +172,7 @@
             "purr_meow.wav"
           ],
           "src": [
-            "bundle/sfx/purr_meow-LFJvUg.ogg",
+            "bundle/sfx/purr_meow-h_CdFA.ogg",
             "bundle/sfx/purr_meow--g_Vrg.mp3"
           ],
           "data": {
