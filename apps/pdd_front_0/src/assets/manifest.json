@@ -2,100 +2,260 @@
   "bundles": [
     {
       "name": "default",
+      "assets": []
+    },
+    {
+      "name": "bundle",
       "assets": [
         {
           "alias": [
-            "base-screen/Background.png"
+            "bundle/background_land.jpg",
+            "background_land.jpg"
           ],
           "src": [
-            "base-screen/Background.png",
-            "base-screen/Background.webp",
-            "base-screen/Background.avif"
-          ]
-        },
-        {
-          "alias": [
-            "base-screen/kitty.png"
-          ],
-          "src": [
-            "base-screen/kitty.png",
-            "base-screen/kitty.webp",
-            "base-screen/kitty.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/frame.png"
-          ],
-          "src": [
-            "game-screen/loader/frame.png",
-            "game-screen/loader/frame.webp",
-            "game-screen/loader/frame.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/living_room.jpg"
-          ],
-          "src": [
-            "game-screen/loader/living_room.jpg",
-            "game-screen/loader/living_room.webp",
-            "game-screen/loader/living_room.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/loader/progressline.png"
-          ],
-          "src": [
-            "game-screen/loader/progressline.png",
-            "game-screen/loader/progressline.webp",
-            "game-screen/loader/progressline.avif"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/screen/screen.json"
-          ],
-          "src": [
-            "game-screen/screen/screen@1x.json",
-            "game-screen/screen/screen@0.5x.json"
+            "bundle/background_land-yox0ZA.avif",
+            "bundle/background_land-Y_U6lw.webp",
+            "bundle/background_land-nf1L@0.5x.avif",
+            "bundle/background_land-dTtzjg@0.5x.webp",
+            "bundle/background_land-clqt.jpg",
+            "bundle/background_land-0L9V-Q@0.5x.jpg"
           ],
           "data": {
             "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/background_port.jpg",
+            "background_port.jpg"
+          ],
+          "src": [
+            "bundle/background_port-YdX5uw@0.5x.jpg",
+            "bundle/background_port-mIydBQ.webp",
+            "bundle/background_port-kBVlQw@0.5x.avif",
+            "bundle/background_port-f4ClDQ.jpg",
+            "bundle/background_port-8JQmhg.avif",
+            "bundle/background_port-2binFQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/frame.png",
+            "frame.png"
+          ],
+          "src": [
+            "bundle/frame-vpswpA.avif",
+            "bundle/frame-UU9qtA.png",
+            "bundle/frame-OSAWsQ@0.5x.webp",
+            "bundle/frame-nRCUhQ@0.5x.png",
+            "bundle/frame-IDER3w@0.5x.avif",
+            "bundle/frame-7rBgOg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/kitty.png",
+            "kitty.png"
+          ],
+          "src": [
+            "bundle/kitty-x0sq-Q.webp",
+            "bundle/kitty-rZzs0w@0.5x.avif",
+            "bundle/kitty-NrrtLQ.avif",
+            "bundle/kitty-K0Kh0Q@0.5x.webp",
+            "bundle/kitty-G_mEAg.png",
+            "bundle/kitty-4lK3-w@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/living_room.jpg",
+            "living_room.jpg"
+          ],
+          "src": [
+            "bundle/living_room-VU4mWw@0.5x.jpg",
+            "bundle/living_room-qZJc9Q.jpg",
+            "bundle/living_room-H2QxyQ@0.5x.webp",
+            "bundle/living_room-Fb9zpg.avif",
+            "bundle/living_room-2NpDhA.webp",
+            "bundle/living_room--S9k_A@0.5x.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/progressline.png",
+            "progressline.png"
+          ],
+          "src": [
+            "bundle/progressline-z3O6IQ@0.5x.avif",
+            "bundle/progressline-ndoN-A@0.5x.webp",
+            "bundle/progressline-MZok1g.avif",
+            "bundle/progressline-jP5j7w@0.5x.png",
+            "bundle/progressline-3h_3RA.png",
+            "bundle/progressline-10ytLg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/sfx/1621_Background_Guitar_30sec.mp3",
+            "1621_Background_Guitar_30sec.mp3"
+          ],
+          "src": [
+            "bundle/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3",
+            "bundle/sfx/1621_Background_Guitar_30sec-4nRmdw.ogg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/sfx/1621_Background_Guitar_loop.wav",
+            "1621_Background_Guitar_loop.wav"
+          ],
+          "src": [
+            "bundle/sfx/1621_Background_Guitar_loop-b6lvEg.ogg",
+            "bundle/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/sfx/meow.wav",
+            "meow.wav"
+          ],
+          "src": [
+            "bundle/sfx/meow-IudFlw.ogg",
+            "bundle/sfx/meow-1s5OKA.mp3"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "bundle/sfx/purr_meow.wav",
+            "purr_meow.wav"
+          ],
+          "src": [
+            "bundle/sfx/purr_meow-LFJvUg.ogg",
+            "bundle/sfx/purr_meow--g_Vrg.mp3"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game-screen",
+      "assets": [
+        {
+          "alias": [
+            "game-screen/loader/Background.png",
+            "Background.png"
+          ],
+          "src": [
+            "game-screen/loader/Background-wZkrPA@0.5x.avif",
+            "game-screen/loader/Background-OodOkQ@0.5x.webp",
+            "game-screen/loader/Background-Octk_A@0.5x.png",
+            "game-screen/loader/Background-eOU9.png",
+            "game-screen/loader/Background-cVMU5w.avif",
+            "game-screen/loader/Background-0iTqLQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/loader/ring.png",
+            "ring.png"
+          ],
+          "src": [
+            "game-screen/loader/ring-ySHzZA.png",
+            "game-screen/loader/ring-wO1MaA@0.5x.webp",
+            "game-screen/loader/ring-U9qa2w.avif",
+            "game-screen/loader/ring-syWuow.webp",
+            "game-screen/loader/ring-OqJxmA@0.5x.png",
+            "game-screen/loader/ring-1PXOsA@0.5x.avif"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game-screen/screen",
+            "screen"
+          ],
+          "src": [
+            "game-screen/screen-WAM3@0.5x.png.json",
+            "game-screen/screen-S-7D.png.json",
+            "game-screen/screen-quz5LA.avif.json",
+            "game-screen/screen-NWUj@0.5x.avif.json",
+            "game-screen/screen-gRYtGQ@0.5x.webp.json",
+            "game-screen/screen-bNEjCQ.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
               "tps": true
             }
           }
         },
         {
           "alias": [
-            "game-screen/sfx/bg_menu.mp3"
+            "game-screen/spine/spinach/cat.atlas",
+            "cat.atlas"
           ],
           "src": [
-            "game-screen/sfx/bg_menu.mp3",
-            "game-screen/sfx/bg_menu.ogg"
-          ]
-        },
-        {
-          "alias": [
-            "game-screen/sfx/ui_button.mp3"
-          ],
-          "src": [
-            "game-screen/sfx/ui_button.mp3",
-            "game-screen/sfx/ui_button.ogg"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "game-screen/spine",
-      "assets": [
-        {
-          "alias": [
-            "game-screen/spine/spinach/skeleton.atlas"
-          ],
-          "src": [
-            "game-screen/spine/spinach/skeleton.atlas"
+            "game-screen/spine/spinach/cat-TihWVA.webp.atlas",
+            "game-screen/spine/spinach/cat-maVpeg.png.atlas",
+            "game-screen/spine/spinach/cat-KKQuMQ@0.5x.png.atlas",
+            "game-screen/spine/spinach/cat-iRqL0Q.avif.atlas",
+            "game-screen/spine/spinach/cat-HSE7Hg@0.5x.webp.atlas",
+            "game-screen/spine/spinach/cat-c0xb_g@0.5x.avif.atlas"
           ],
           "data": {
             "tags": {
@@ -105,25 +265,11 @@
         },
         {
           "alias": [
-            "game-screen/spine/spinach/skeleton.json"
+            "game-screen/spine/spinach/cat.json",
+            "cat.json"
           ],
           "src": [
-            "game-screen/spine/spinach/skeleton.json"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "alias": [
-            "game-screen/spine/spinach/skeleton.png"
-          ],
-          "src": [
-            "game-screen/spine/spinach/skeleton.png",
-            "game-screen/spine/spinach/skeleton.webp",
-            "game-screen/spine/spinach/skeleton.avif"
+            "game-screen/spine/spinach/cat-6I21.json"
           ],
           "data": {
             "tags": {

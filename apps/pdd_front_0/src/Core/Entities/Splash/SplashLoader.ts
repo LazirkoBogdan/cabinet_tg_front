@@ -1,4 +1,4 @@
-import { Assets, Container, Graphics, Sprite, BLEND_MODES } from 'pixi.js';
+import { Assets, Container, Graphics, Sprite } from 'pixi.js';
 import { Ease, ease } from 'pixi-ease';
 import { signal } from '../../Service';
 
@@ -24,12 +24,9 @@ export class SplashLoader extends Container {
   }
 
   async initLoaderSprites() {
-    const loaderBGTexture = await Assets.load(
-      './game-screen/loader/frame.avif'
-    );
-    const loaderFGTexture = await Assets.load(
-      './game-screen/loader/progressline.webp'
-    );
+    const loaderBGTexture = Assets.cache.get('frame.png');
+    const loaderFGTexture = Assets.cache.get('progressline.png');
+
     this.loaderBG.texture = loaderBGTexture;
     this.loaderFG.texture = loaderFGTexture;
     this.loaderBG.anchor.set(0.5);

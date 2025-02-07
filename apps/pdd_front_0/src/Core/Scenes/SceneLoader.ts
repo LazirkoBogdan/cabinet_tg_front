@@ -1,5 +1,6 @@
 import { Application } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
+import { ease } from 'pixi-ease';
 
 export class SceneLoader {
     private app: Application;
@@ -10,14 +11,23 @@ export class SceneLoader {
         this.currentScene = null;
     }
 
-    public loadScene(scene: AbstractScene): void {
+      /**
+   * Usage example
+   * sceneLoader.loadScene(splashScene, { x: 960 }, { duration: 1000, ease: 'easeInOutSine' });
+   */
+
+    public loadScene(scene: AbstractScene, animation: object = {}, duration: object = {duration :0}): void {
         if (this.currentScene) {
             this.unloadScene();
         }
         this.currentScene = scene;
         this.app.stage.addChild(this.currentScene);
         this.currentScene.show();
-    }
+        if (animation) {
+            console.log('animation' );
+            ease.add(this.currentScene, animation, duration);
+        }
+}
 
     public unloadScene(): void {
         if (this.currentScene) {

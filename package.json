@@ -19,14 +19,7 @@
     "signal-js": "^3.0.1"
   },
   "devDependencies": {
-    "@assetpack/core": "^0.8.0",
-    "@assetpack/plugin-compress": "^0.8.0",
-    "@assetpack/plugin-ffmpeg": "^0.8.0",
-    "@assetpack/plugin-json": "^0.8.0",
-    "@assetpack/plugin-manifest": "^0.8.0",
-    "@assetpack/plugin-mipmap": "^0.8.0",
-    "@assetpack/plugin-texture-packer": "^0.8.0",
-    "@assetpack/plugin-webfont": "^0.5.1",
+    "@assetpack/core": "1.0.0",
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@eslint/js": "^9.8.0",

@@ -61,24 +61,15 @@ async function runAssetPack() {
               audioChannels: 1,
               audioFrequency: 22050,
             },
-          },
-        ],
-      }),
-      pixiTexturePacker({
-        texturePacker: {
-          removeFileExtension: true,
-        },
-      }),
-      compress(options),
-      webfont(),
-      pixiManifest({
-        output: './src/assets/manifest.json',
-        createShortcuts: false,
-        trimExtensions: false,
-        includeMetaData: false,
-      }),
-    ],
-  });
+          }
+        ]
+      },
+
+
+      manifest: { createShortcuts: true },
+    }),
+  ],
+});
 
   await assetpack.run();
 }

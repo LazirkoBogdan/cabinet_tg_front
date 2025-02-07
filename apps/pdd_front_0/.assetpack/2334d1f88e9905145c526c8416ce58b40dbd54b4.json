@@ -1,0 +1,1939 @@
+{
+    "assets": {
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets": {
+            "isFolder": true,
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets",
+            "metaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_land.jpg": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "41oMoQ"
+        },
+        ".assetpack/mipmap/bundle{m}/background_land.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-Y_U6lw.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-Y_U6lw.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-Y_U6lw.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-clqt.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-clqt.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-clqt.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-yox0ZA.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-yox0ZA.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-yox0ZA.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/background_land@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_land.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-dTtzjg@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-dTtzjg@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-dTtzjg@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-0L9V-Q@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-0L9V-Q@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-0L9V-Q@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_land@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_land@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_land-nf1L@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_land@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_land-nf1L@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_land-nf1L@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_port.jpg": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "s8zjXg"
+        },
+        ".assetpack/mipmap/bundle{m}/background_port.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-mIydBQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-mIydBQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-mIydBQ.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-f4ClDQ.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-f4ClDQ.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-f4ClDQ.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-8JQmhg.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-8JQmhg.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-8JQmhg.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/background_port@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/background_port.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-2binFQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-2binFQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-2binFQ@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-YdX5uw@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-YdX5uw@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-YdX5uw@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/background_port@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/background_port@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/background_port-kBVlQw@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/background_port@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/background_port-kBVlQw@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/background_port-kBVlQw@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/frame.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "9gyo"
+        },
+        ".assetpack/mipmap/bundle{m}/frame.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-UU9qtA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-UU9qtA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-UU9qtA.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-7rBgOg.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-7rBgOg.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-7rBgOg.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-vpswpA.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-vpswpA.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-vpswpA.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/frame@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/frame.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-nRCUhQ@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-nRCUhQ@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-nRCUhQ@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-OSAWsQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-OSAWsQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-OSAWsQ@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/frame@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/frame@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/frame-IDER3w@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/frame@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/frame-IDER3w@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/frame-IDER3w@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/kitty.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "OPsqsQ"
+        },
+        ".assetpack/mipmap/bundle{m}/kitty.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-G_mEAg.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-G_mEAg.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-G_mEAg.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-x0sq-Q.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-x0sq-Q.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-x0sq-Q.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-NrrtLQ.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-NrrtLQ.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-NrrtLQ.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/kitty@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/kitty.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-4lK3-w@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-4lK3-w@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-4lK3-w@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-K0Kh0Q@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-K0Kh0Q@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-K0Kh0Q@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/kitty@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/kitty@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/kitty-rZzs0w@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/kitty@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/kitty-rZzs0w@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/kitty-rZzs0w@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/living_room.jpg": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "16Uw3g"
+        },
+        ".assetpack/mipmap/bundle{m}/living_room.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room-2NpDhA.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room-2NpDhA.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room-2NpDhA.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room-qZJc9Q.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room-qZJc9Q.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room-qZJc9Q.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room-Fb9zpg.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room-Fb9zpg.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room-Fb9zpg.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/living_room@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/living_room.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room-H2QxyQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room-H2QxyQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room-H2QxyQ@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room-VU4mWw@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room-VU4mWw@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room-VU4mWw@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/living_room@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/living_room@0.5x.jpg",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/living_room--S9k_A@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/living_room@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/living_room--S9k_A@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/living_room--S9k_A@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/progressline.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {},
+            "hash": "oCPJKQ"
+        },
+        ".assetpack/mipmap/bundle{m}/progressline.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-3h_3RA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-3h_3RA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-3h_3RA.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-10ytLg.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-10ytLg.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-10ytLg.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-MZok1g.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-MZok1g.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-MZok1g.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/bundle{m}/progressline@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/progressline.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-jP5j7w@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-jP5j7w@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-jP5j7w@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-ndoN-A@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-ndoN-A@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-ndoN-A@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/bundle{m}/progressline@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/bundle{m}/progressline@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/progressline-z3O6IQ@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/bundle{m}/progressline@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/progressline-z3O6IQ@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/progressline-z3O6IQ@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_30sec.mp3": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx",
+            "metaData": {},
+            "transformData": {},
+            "hash": "TdVqVg"
+        },
+        ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_30sec.mp3": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_30sec.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_30sec.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_30sec.ogg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_30sec.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-4nRmdw.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_30sec.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_30sec-4nRmdw.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-4nRmdw.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_loop.wav": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx",
+            "metaData": {},
+            "transformData": {},
+            "hash": "Vl-5tQ"
+        },
+        ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_loop.mp3": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_loop.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_loop.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_loop.ogg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/1621_Background_Guitar_loop.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-b6lvEg.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_loop.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_loop-b6lvEg.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-b6lvEg.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/meow.wav": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx",
+            "metaData": {},
+            "transformData": {},
+            "hash": "WNLt5g"
+        },
+        ".assetpack/audio/bundle{m}/sfx/meow.mp3": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/meow.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/meow-1s5OKA.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/meow.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/meow-1s5OKA.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/meow-1s5OKA.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/bundle{m}/sfx/meow.ogg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/meow.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/meow-IudFlw.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/meow.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/meow-IudFlw.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/meow-IudFlw.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/purr_meow.wav": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx",
+            "metaData": {},
+            "transformData": {},
+            "hash": "lm4FnQ"
+        },
+        ".assetpack/audio/bundle{m}/sfx/purr_meow.mp3": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/purr_meow.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/purr_meow--g_Vrg.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/purr_meow.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/purr_meow--g_Vrg.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/purr_meow--g_Vrg.mp3",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/bundle{m}/sfx/purr_meow.ogg": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/bundle{m}/sfx/purr_meow.wav",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-LFJvUg.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/bundle{m}/sfx/purr_meow.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/purr_meow-LFJvUg.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-LFJvUg.ogg",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets",
+            "metaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/Background.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader",
+            "metaData": {},
+            "transformData": {},
+            "hash": "haoNrA"
+        },
+        ".assetpack/mipmap/game-screen{m}/loader/Background.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-eOU9.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-eOU9.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-eOU9.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-0iTqLQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-0iTqLQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-0iTqLQ.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-cVMU5w.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-cVMU5w.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-cVMU5w.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/game-screen{m}/loader/Background@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/Background.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-Octk_A@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-Octk_A@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-Octk_A@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-OodOkQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-OodOkQ@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-OodOkQ@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/Background@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/Background@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/Background-wZkrPA@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/Background@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/Background-wZkrPA@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/Background-wZkrPA@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/ring.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader",
+            "metaData": {},
+            "transformData": {},
+            "hash": "G-vkmA"
+        },
+        ".assetpack/mipmap/game-screen{m}/loader/ring.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-ySHzZA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-ySHzZA.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-ySHzZA.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-syWuow.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-syWuow.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-syWuow.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-U9qa2w.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-U9qa2w.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-U9qa2w.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/game-screen{m}/loader/ring@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/loader/ring.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-OqJxmA@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-OqJxmA@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-OqJxmA@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-wO1MaA@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-wO1MaA@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-wO1MaA@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/loader/ring@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/loader/ring@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/loader/ring-1PXOsA@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/loader/ring@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/loader/ring-1PXOsA@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/loader/ring-1PXOsA@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}",
+            "metaData": {
+                "tps": true
+            },
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_1.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "1xT3bA"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_10.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "wlrVgQ"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_3.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "pPDx"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_4.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "SM_S0w"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_5.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "71REOw"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_6.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "iQ7dPA"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_7.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "VWhkCQ"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_8.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "w_gI"
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle/coin_9.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}/particle",
+            "metaData": {},
+            "transformData": {},
+            "hash": "69wXyg"
+        },
+        ".assetpack/texture-packer/game-screen{m}/screen.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "fix": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/mipmap/game-screen{m}/screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-9_2nSw.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-9_2nSw.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-9_2nSw.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-1hg1.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-1hg1.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-1hg1.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-0XweSQ.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-0XweSQ.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-0XweSQ.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/game-screen{m}/screen.json": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-587NCw.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-quz5LA.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-587NCw.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-2pcTTA.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-S-7D.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-2pcTTA.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-7GSvcw.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-bNEjCQ.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-7GSvcw.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer/game-screen{m}/screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "fix": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/mipmap/game-screen{m}/screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-ms93aA@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-ms93aA@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-ms93aA@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-ooP2BA@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-ooP2BA@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-ooP2BA@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/screen@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/screen@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-Iigx0A@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/screen@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-Iigx0A@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-Iigx0A@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/game-screen{m}/screen@0.5x.json": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/screen{tps}",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen@0.5x.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen@0.5x.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-Kb_U1w@0.5x.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen@0.5x.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-NWUj@0.5x.avif.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-Kb_U1w@0.5x.avif.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen@0.5x.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-d6Y7qA@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen@0.5x.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-WAM3@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-d6Y7qA@0.5x.png.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/game-screen{m}/screen@0.5x.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/game-screen{m}/screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/game-screen{m}/screen@0.5x.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/cache-buster/game-screen{m}/screen-beUs9w@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/screen@0.5x.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/screen-gRYtGQ@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/screen-beUs9w@0.5x.webp.json",
+            "metaData": {},
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach": {
+            "isFolder": true,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.atlas": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach",
+            "metaData": {},
+            "transformData": {},
+            "hash": "3MgN9A"
+        },
+        ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat.atlas": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-VPBDgQ.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.avif.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-iRqL0Q.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-VPBDgQ.avif.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-3MgN9A.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.png.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-maVpeg.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-3MgN9A.png.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-2_EDnA.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat.webp.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-TihWVA.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-2_EDnA.webp.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat@0.5x.atlas": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat@0.5x.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-R1LrPg@0.5x.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.avif.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-c0xb_g@0.5x.avif.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-R1LrPg@0.5x.avif.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat@0.5x.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-kWNWtw@0.5x.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.png.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-KKQuMQ@0.5x.png.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-kWNWtw@0.5x.png.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap-spine-atlas/game-screen{m}/spine/spinach/cat@0.5x.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-W-T-JQ@0.5x.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/spine-atlas-compress/game-screen{m}/spine/spinach/cat@0.5x.webp.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-HSE7Hg@0.5x.webp.atlas": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-W-T-JQ@0.5x.webp.atlas",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.json": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach",
+            "metaData": {},
+            "transformData": {},
+            "hash": "_V6BKg"
+        },
+        ".assetpack/json/game-screen{m}/spine/spinach/cat.json": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.json",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-6I21.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/game-screen{m}/spine/spinach/cat.json",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-6I21.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-6I21.json",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.png": {
+            "isFolder": false,
+            "parent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach",
+            "metaData": {},
+            "transformData": {},
+            "hash": "vYmbtQ"
+        },
+        ".assetpack/mipmap/game-screen{m}/spine/spinach/cat.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-GArXQw.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-GArXQw.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-GArXQw.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-dALlOQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-dALlOQ.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-dALlOQ.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-wOVsug.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-wOVsug.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-wOVsug.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/game-screen{m}/spine/spinach/cat@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/raw-assets/game-screen{m}/spine/spinach/cat.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat--NQfGw@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat--NQfGw@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat--NQfGw@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-X_qFKg@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-X_qFKg@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-X_qFKg@0.5x.webp",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/game-screen{m}/spine/spinach/cat@0.5x.png",
+            "metaData": {},
+            "transformData": {}
+        },
+        ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-cO3abQ@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/game-screen{m}/spine/spinach/cat@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        },
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/game-screen/spine/spinach/cat-cO3abQ@0.5x.avif": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/game-screen{m}/spine/spinach/cat-cO3abQ@0.5x.avif",
+            "metaData": {},
+            "transformData": {}
+        }
+    }
+}
