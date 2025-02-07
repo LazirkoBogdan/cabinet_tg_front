@@ -128,7 +128,11 @@
           ],
           "src": [
             "bundle/sfx/1621_Background_Guitar_30sec-TdVqVg.mp3",
+<<<<<<< HEAD
             "bundle/sfx/1621_Background_Guitar_30sec-ney_mQ.ogg"
+=======
+            "bundle/sfx/1621_Background_Guitar_30sec-_HSCuQ.ogg"
+>>>>>>> 9429605 (fiz)
           ],
           "data": {
             "tags": {
@@ -142,7 +146,11 @@
             "1621_Background_Guitar_loop.wav"
           ],
           "src": [
+<<<<<<< HEAD
             "bundle/sfx/1621_Background_Guitar_loop-HYqd6g.ogg",
+=======
+            "bundle/sfx/1621_Background_Guitar_loop-sxiDBQ.ogg",
+>>>>>>> 9429605 (fiz)
             "bundle/sfx/1621_Background_Guitar_loop-6Nvh5g.mp3"
           ],
           "data": {
@@ -157,7 +165,11 @@
             "meow.wav"
           ],
           "src": [
+<<<<<<< HEAD
             "bundle/sfx/meow-5Suo4A.ogg",
+=======
+            "bundle/sfx/meow-wjQczw.ogg",
+>>>>>>> 9429605 (fiz)
             "bundle/sfx/meow-1s5OKA.mp3"
           ],
           "data": {
@@ -172,7 +184,11 @@
             "purr_meow.wav"
           ],
           "src": [
+<<<<<<< HEAD
             "bundle/sfx/purr_meow-ptgDLA.ogg",
+=======
+            "bundle/sfx/purr_meow-a5LGnQ.ogg",
+>>>>>>> 9429605 (fiz)
             "bundle/sfx/purr_meow--g_Vrg.mp3"
           ],
           "data": {
@@ -270,25 +286,6 @@
           ],
           "src": [
             "game-screen/spine/spinach/cat-6I21.json"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "alias": [
-            "game-screen/spine/spinach/cat.png",
-            "cat.png"
-          ],
-          "src": [
-            "game-screen/spine/spinach/cat-X_qFKg@0.5x.webp",
-            "game-screen/spine/spinach/cat-wOVsug.avif",
-            "game-screen/spine/spinach/cat-GArXQw.png",
-            "game-screen/spine/spinach/cat-dALlOQ.webp",
-            "game-screen/spine/spinach/cat-cO3abQ@0.5x.avif",
-            "game-screen/spine/spinach/cat--NQfGw@0.5x.png"
           ],
           "data": {
             "tags": {

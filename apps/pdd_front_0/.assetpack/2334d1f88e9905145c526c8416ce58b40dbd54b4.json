@@ -812,15 +812,25 @@
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-ney_mQ.ogg": {
+=======
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-_HSCuQ.ogg": {
+>>>>>>> 9429605 (fiz)
             "isFolder": false,
             "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_30sec.ogg",
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_30sec-ney_mQ.ogg": {
             "isFolder": false,
             "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-ney_mQ.ogg",
+=======
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_30sec-_HSCuQ.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_30sec-_HSCuQ.ogg",
+>>>>>>> 9429605 (fiz)
             "metaData": {},
             "transformData": {}
         },
@@ -855,15 +865,25 @@
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-HYqd6g.ogg": {
+=======
+        ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-sxiDBQ.ogg": {
+>>>>>>> 9429605 (fiz)
             "isFolder": false,
             "transformParent": ".assetpack/audio/bundle{m}/sfx/1621_Background_Guitar_loop.ogg",
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_loop-HYqd6g.ogg": {
             "isFolder": false,
             "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-HYqd6g.ogg",
+=======
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/1621_Background_Guitar_loop-sxiDBQ.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/1621_Background_Guitar_loop-sxiDBQ.ogg",
+>>>>>>> 9429605 (fiz)
             "metaData": {},
             "transformData": {}
         },
@@ -898,15 +918,25 @@
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         ".assetpack/cache-buster/bundle{m}/sfx/meow-5Suo4A.ogg": {
+=======
+        ".assetpack/cache-buster/bundle{m}/sfx/meow-wjQczw.ogg": {
+>>>>>>> 9429605 (fiz)
             "isFolder": false,
             "transformParent": ".assetpack/audio/bundle{m}/sfx/meow.ogg",
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/meow-5Suo4A.ogg": {
             "isFolder": false,
             "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/meow-5Suo4A.ogg",
+=======
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/meow-wjQczw.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/meow-wjQczw.ogg",
+>>>>>>> 9429605 (fiz)
             "metaData": {},
             "transformData": {}
         },
@@ -941,15 +971,25 @@
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-ptgDLA.ogg": {
+=======
+        ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-a5LGnQ.ogg": {
+>>>>>>> 9429605 (fiz)
             "isFolder": false,
             "transformParent": ".assetpack/audio/bundle{m}/sfx/purr_meow.ogg",
             "metaData": {},
             "transformData": {}
         },
+<<<<<<< HEAD
         "/Users/roman/Documents/Cabinet/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/purr_meow-ptgDLA.ogg": {
             "isFolder": false,
             "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-ptgDLA.ogg",
+=======
+        "/Users/admin/work/cabinet_tg_front/apps/pdd_front_0/src/assets/bundle/sfx/purr_meow-a5LGnQ.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/cache-buster/bundle{m}/sfx/purr_meow-a5LGnQ.ogg",
+>>>>>>> 9429605 (fiz)
             "metaData": {},
             "transformData": {}
         },
