@@ -276,6 +276,25 @@
               "m": true
             }
           }
+        },
+        {
+          "alias": [
+            "game-screen/spine/spinach/cat.png",
+            "cat.png"
+          ],
+          "src": [
+            "game-screen/spine/spinach/cat-X_qFKg@0.5x.webp",
+            "game-screen/spine/spinach/cat-wOVsug.avif",
+            "game-screen/spine/spinach/cat-GArXQw.png",
+            "game-screen/spine/spinach/cat-dALlOQ.webp",
+            "game-screen/spine/spinach/cat-cO3abQ@0.5x.avif",
+            "game-screen/spine/spinach/cat--NQfGw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
         }
       ]
     }
