@@ -1,4 +1,4 @@
-import { Sprite, Text, Graphics, Assets } from 'pixi.js';
+import { Sprite, Text, Graphics, Assets, Container } from 'pixi.js';
 import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { AbstractScene } from './AbstractScene';
 import { sound } from '@pixi/sound';
@@ -6,8 +6,8 @@ import { sound } from '@pixi/sound';
 export class BaseScene extends AbstractScene {
   private clickCount = 0;
   private clickText!: Text;
-  private background!: Sprite;
   private player!: Spine;
+  private happyBG!: Sprite;
   private happyButton!: Graphics;
   private happyFill!: Graphics;
   private happinessLevel = 0;
@@ -60,49 +60,66 @@ export class BaseScene extends AbstractScene {
   }
 
   private createUI(): void {
-    this.clickText = new Text(`Clicks: ${this.clickCount}`, {
-      fontSize: 64,
+    this.clickText = new Text(`${this.clickCount} %`, {
+      fontSize: 45,
       fill: 0xffffff,
       fontWeight: 'bold',
     });
 
-    this.clickText.position.set(20, 20);
+    this.clickText.position.set(-170, 600);
     this.addChild(this.clickText);
   }
 
   private createHappyButton(): void {
-    const buttonWidth = 120;
+    const buttonWidth = 100;
     const buttonHeight = 100;
+
+    const container = new Container();
+    container.position.set(-100, 750);
+    container.pivot.set(buttonWidth / 2, buttonHeight / 2);
+    this.addChild(container);
 
     this.happyButton = new Graphics();
     this.happyButton.lineStyle(2, 0x000000);
     this.happyButton.drawRoundedRect(0, 0, buttonWidth, buttonHeight, 10);
-    this.happyButton.position.set(20, 60);
-    this.addChild(this.happyButton);
+    this.happyButton.position.set(0, 0);
+    container.addChild(this.happyButton);
+
+    const mask = new Graphics();
+    mask.beginFill(0xffffff);
+    mask.drawCircle(buttonWidth / 2, buttonHeight / 2, buttonWidth / 2);
+    mask.endFill();
+    container.addChild(mask);
 
     this.happyFill = new Graphics();
+    this.happyFill.mask = mask;
     this.happyButton.addChild(this.happyFill);
 
-    const buttonText = new Text('Happiness', {
-      fontSize: 30,
-      fill: 0x000000,
-      fontWeight: 'bold',
-    });
-    buttonText.anchor.set(0.5);
-    buttonText.position.set(buttonWidth / 2, buttonHeight / 2);
-    this.happyButton.addChild(buttonText);
+    this.happyBG = new Sprite(Assets.cache.get('icon_status_bg.png'));
+    this.happyBG.scale.set(0.1);
+    this.happyBG.anchor.set(0.5);
+    this.happyBG.position.set(buttonWidth / 2, buttonHeight / 2);
+    container.addChild(this.happyBG);
+
+    const happyIcon = new Sprite(Assets.cache.get('icon_status_happy.png'));
+    happyIcon.scale.set(0.15);
+    happyIcon.anchor.set(0.5);
+    happyIcon.position.set(buttonWidth / 2, buttonHeight / 2);
+    container.addChild(happyIcon);
 
     this.updateHappyFill();
   }
 
   private updateHappyFill(): void {
-    const buttonWidth = 120;
+    const buttonWidth = 100;
     const buttonHeight = 100;
 
     this.happyFill.clear();
     this.happyFill.beginFill(0x00ff00);
 
-    const fillHeight = (this.happinessLevel / 10000) * buttonHeight;
+    const fillHeight = (this.happinessLevel / 1000) * buttonHeight;
+    console.log(this.happinessLevel);
+    console.log(fillHeight);
     this.happyFill.drawRect(
       0,
       buttonHeight - fillHeight,
@@ -147,11 +164,10 @@ export class BaseScene extends AbstractScene {
       }
 
       this.hoverInterval = setInterval(() => {
-        this.clickCount++;
-        this.updateClickText();
-
-        if (this.happinessLevel < 10000) {
-          this.happinessLevel += 50;
+        if (this.happinessLevel < 1000) {
+          this.clickCount++;
+          this.happinessLevel += 25;
+          this.updateClickText();
           this.updateHappyFill();
         }
       }, 100);
@@ -161,11 +177,11 @@ export class BaseScene extends AbstractScene {
     this.hoverTimeout = setTimeout(() => {
       clearInterval(this.hoverInterval);
       this.hoverInterval = null;
-    }, 100);
+    }, 140);
   }
 
   private updateClickText(): void {
-    this.clickText.text = `Clicks: ${this.clickCount}`;
-    console.log(`Player hovered ${this.clickCount} times`);
+    const fillPercentage = (this.happinessLevel / 1000) * 100;
+    this.clickText.text = `${fillPercentage.toFixed(2)} %`;
   }
 }
