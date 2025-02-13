@@ -1,5 +1,5 @@
 import { Container, Graphics, Text } from "pixi.js";
-import { ease } from 'pixi-ease';
+import { Ease, ease } from 'pixi-ease';
 
 export class Popup extends Container {
     protected _id: string;
@@ -141,10 +141,6 @@ export class Popup extends Container {
         console.log('initOkButton');
         this.drawOkButtonBG();
         this.initOkButtonText();
-        this._okButton.on('pointerdown', () => {
-            console.log('OK button clicked');
-            this.popupOut(-1000, 1000);
-        });
     }
 
     drawOkButtonBG() {
@@ -179,10 +175,6 @@ export class Popup extends Container {
         console.log('initCancelButton');
         this.drawCancelButtonBG();
         this.initCancelButtonText();
-        this._cancelButton.on('pointerdown', () => {
-            console.log('Cancel button clicked');
-            this.popupOut(-1000, 1000);
-        });
     }
 
     drawCancelButtonBG() {

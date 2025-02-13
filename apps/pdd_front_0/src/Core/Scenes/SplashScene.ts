@@ -15,7 +15,7 @@ export class SplashScene extends AbstractScene {
     this.bgWidth = params.width || 100;
     this.init();
     this.loader = this.initLoader();
-    const popup = this.initPopup();
+    // const popup = this.initPopup();
 
     // setTimeout(() => {
     //   popup.popupIn(-1000, 1000)
