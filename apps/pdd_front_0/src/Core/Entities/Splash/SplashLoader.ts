@@ -1,5 +1,5 @@
 import { Assets, Container, Graphics, Sprite } from 'pixi.js';
-import { Ease, ease } from 'pixi-ease';
+import { ease } from 'pixi-ease';
 import { signal } from '../../Service';
 
 export class SplashLoader extends Container {
