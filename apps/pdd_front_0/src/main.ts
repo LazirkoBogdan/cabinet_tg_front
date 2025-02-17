@@ -5,7 +5,7 @@ import { SceneLoader } from './Core/Scenes/SceneLoader';
 import { SplashScene } from './Core/Scenes/SplashScene';
 import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
-import { BaseScene } from './Core/Scenes/BaseScene';
+import { UIScene } from './Core/Scenes/UIScene';
 import manifest from './assets/manifest.json';
 
 enum GameState {
@@ -34,8 +34,6 @@ enum GameState {
   Assets.backgroundLoadBundle(['default', 'bundle', 'game-screen']);
 
   await Assets.loadBundle('bundle').then(async (res) => {
-    // Load the bunny texture
-
     const texture = Assets.cache.get('background_land.jpg');
 
     // Create a bunny Sprite
@@ -54,8 +52,8 @@ enum GameState {
     });
 
     await Assets.loadBundle('game-screen').then((res) => {
-      const baseScene = new BaseScene({
-        id: 'base',
+      const uiScene = new UIScene({
+        id: 'ui',
         x: 960,
         y: 540,
         width: app.view.width,
@@ -80,13 +78,12 @@ enum GameState {
       bg.interactive = true;
       (bg as any).interactive = true;
       bg.on('pointerdown', () => {
-        baseScene.x = 960 - baseScene.width / 2;
-        baseScene.y = 540 - baseScene.height / 2;
-        sceneLoader.switchScene(baseScene);
+        uiScene.x = 960 - uiScene.width / 2;
+        uiScene.y = 540 - uiScene.height / 2;
+        sceneLoader.switchScene(uiScene);
       });
     });
   });
 
-  // Append the application canvas to the document body
   document.body.appendChild(app.canvas);
 })();

@@ -1,19 +1,20 @@
 import { Sprite, Text, Graphics, Assets, Container } from 'pixi.js';
-import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { AbstractScene } from './AbstractScene';
+import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { sound } from '@pixi/sound';
 
-export class BaseScene extends AbstractScene {
-  private clickCount = 0;
-  private clickText!: Text;
-  private player!: Spine;
-  private happyBG!: Sprite;
-  private happyButton!: Graphics;
-  private happyFill!: Graphics;
-  private happinessLevel = 0;
-  private hoverTimeout: any;
-  private animationPlaying = false;
-  private lastSoundPlayed = '';
+export class UIScene extends AbstractScene {
+  clickCount = 0;
+  clickText!: Text;
+  player!: Spine;
+  happyBG!: Sprite;
+  happyButton!: Graphics;
+  happyFill!: Graphics;
+  happinessLevel = 0;
+  hoverTimeout: any;
+  animationPlaying = false;
+  lastSoundPlayed = '';
+  hoverInterval: any;
 
   constructor(params: any) {
     super(params);
@@ -33,13 +34,10 @@ export class BaseScene extends AbstractScene {
     });
 
     this.player.state.setAnimation(0, 'idle', true);
-
     this.setupPlayer();
   }
 
   private setupPlayer(): void {
-    // this.player.scale.set(0.3);
-
     this.player.x = 360;
     this.player.y = 600;
     this.player.scale.set(0.5);
@@ -51,10 +49,8 @@ export class BaseScene extends AbstractScene {
     const bgSound = Assets.cache.get('1621_Background_Guitar_loop.wav');
     sound.add('bg', bgSound);
     sound.play('bg', { loop: true });
-
     const meow = Assets.cache.get('meow.wav');
     sound.add('meow', meow);
-
     const purr = Assets.cache.get('purr_meow.wav');
     sound.add('purr', purr);
   }
@@ -116,10 +112,7 @@ export class BaseScene extends AbstractScene {
 
     this.happyFill.clear();
     this.happyFill.beginFill(0x00ff00);
-
     const fillHeight = (this.happinessLevel / 1000) * buttonHeight;
-    console.log(this.happinessLevel);
-    console.log(fillHeight);
     this.happyFill.drawRect(
       0,
       buttonHeight - fillHeight,
@@ -133,14 +126,6 @@ export class BaseScene extends AbstractScene {
     this.player.on('pointermove', this.onPlayerHoverMove, this);
     this.player.on('pointerdown', this.onPlayerHoverMove, this);
   }
-
-  private onPlayerHoverEnd(): void {
-    this.player.off('pointermove', this.onPlayerHoverMove, this);
-    this.player.off('pointerdown', this.onPlayerHoverMove, this);
-    clearInterval(this.hoverInterval);
-  }
-
-  private hoverInterval: any;
 
   private onPlayerHoverMove(): void {
     if (!this.hoverInterval) {
@@ -178,6 +163,12 @@ export class BaseScene extends AbstractScene {
       clearInterval(this.hoverInterval);
       this.hoverInterval = null;
     }, 140);
+  }
+
+  private onPlayerHoverEnd(): void {
+    this.player.off('pointermove', this.onPlayerHoverMove, this);
+    this.player.off('pointerdown', this.onPlayerHoverMove, this);
+    clearInterval(this.hoverInterval);
   }
 
   private updateClickText(): void {
