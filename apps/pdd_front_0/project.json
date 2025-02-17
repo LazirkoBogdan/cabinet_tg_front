@@ -9,7 +9,7 @@
     "assets": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "npx node src/.assetpack.js",
+        "command": "npx node src/.assetpack.mjs",
         "cwd": "apps/pdd_front_0"
       }
     }
