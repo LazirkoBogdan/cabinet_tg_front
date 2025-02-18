@@ -7,6 +7,10 @@ import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
 import { UIScene } from './Core/Scenes/UIScene';
 import { LivingroomScene } from './Core/Scenes/LivingroomScene';
+import { BathroomScene } from './Core/Scenes/BathroomScene';
+import { BadroomScene } from './Core/Scenes/BadroomScene';
+import { GameroomScene } from './Core/Scenes/GameroomScene';
+import { KitchenScene } from './Core/Scenes/KitchenScene';
 import manifest from './assets/manifest.json';
 
 enum GameState {
@@ -16,77 +20,107 @@ enum GameState {
   GameOver = 'GameOver',
 }
 
-(async () => {
-  // Create a new application
+(async function main() {
   const app = new Render();
   const sceneLoader = new SceneLoader(app);
-  console.error('manifest', manifest);
+  let currScene: string | null = null;
 
+  console.error('manifest', manifest);
   Assets.resolver.basePath = './assets/';
-  // Initialize the application
   await app.init({ background: '#000000', resizeTo: window });
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   //@ts-ignore
   globalThis.__PIXI_APP__ = app;
 
-  await Assets.init({ manifest: manifest });
-
+  await Assets.init({ manifest });
   Assets.backgroundLoadBundle(['default', 'bundle', 'game-screen']);
+  await Assets.loadBundle('bundle');
 
-  await Assets.loadBundle('bundle').then(async (res) => {
-    const splashScene = new SplashScene({
-      id: 'splash',
-      x: 960,
-      y: 540,
-      width: 2000,
-      height: 2000,
+  const splashScene = new SplashScene({
+    id: 'splash',
+    x: 960,
+    y: 540,
+    width: 2000,
+    height: 2000,
+  });
+  sceneLoader.registerScene('splash', splashScene);
+
+  await Assets.loadBundle('game-screen');
+
+  const uiScene = new UIScene({
+    id: 'ui',
+    x: 0,
+    y: 0,
+    width: app.view.width,
+    height: app.view.height,
+  });
+  sceneLoader.registerScene('ui', uiScene);
+
+  const createScene = <T>(
+    SceneClass: new (config: any) => T,
+    id: string
+  ): T =>
+    new SceneClass({
+      id,
+      x: 0,
+      y: 0,
+      width: app.view.width,
+      height: app.view.height,
     });
 
-    await Assets.loadBundle('game-screen').then((res) => {
-      const uiScene = new UIScene({
-        id: 'ui',
-        x: 960,
-        y: 540,
-        width: app.view.width,
-        height: app.view.height,
-      });
-      uiScene.x = 960 - uiScene.width / 2;
-      uiScene.y = 540 - uiScene.height / 2;
-      sceneLoader.switchScene(uiScene);
-      const roomScene = new LivingroomScene({
-        id: 'lv',
-        x: 960,
-        y: 540,
-        width: app.view.width,
-        height: app.view.height,
-      });
+  const scenes = {
+    livingroom: createScene(LivingroomScene, 'livingroom'),
+    bathroom: createScene(BathroomScene, 'bathroom'),
+    badroom: createScene(BadroomScene, 'badroom'),
+    kitchen: createScene(KitchenScene, 'kitchen'),
+    gameroom: createScene(GameroomScene, 'gameroom'),
+  };
 
-      const gameStateMachine = StateMachine.getInstance(GameState.SplashState);
-      gameStateMachine.addState(GameState.SplashState, () => {
-        console.log('Loader is idle');
-        sceneLoader.loadScene(new SplashScene(splashScene));
-        signal.on('LOADER:COMPLETE', () => {
-          sceneLoader.unloadScene();
-        });
-        gameStateMachine.changeState(GameState.Playing);
-      });
+  Object.entries(scenes).forEach(([key, scene]) =>
+    sceneLoader.registerScene(key, scene)
+  );
 
-      gameStateMachine.addState(GameState.Playing, () => {
-        console.log('Game is playing');
-      });
+  const sceneSwitchMap: Record<string, string> = {
+    'SCENE:CHANGE_TO_LIVINGROOM': 'livingroom',
+    'SCENE:CHANGE_TO_BATHROOM': 'bathroom',
+    'SCENE:CHANGE_TO_BADROOM': 'badroom',
+    'SCENE:CHANGE_TO_KITCHEN': 'kitchen',
+    'SCENE:CHANGE_TO_GAMEROOM': 'gameroom',
+  };
 
-      gameStateMachine.changeState(GameState.SplashState);
+  Object.entries(sceneSwitchMap).forEach(([event, targetScene]) => {
+    signal.on(event, () => {
+      if (!currScene || currScene === targetScene) return;
 
-      // bg.interactive = true;
-      // (bg as any).interactive = true;
-      // bg.on('pointerdown', () => {
-      //   uiScene.x = 960 - uiScene.width / 2;
-      //   uiScene.y = 540 - uiScene.height / 2;
-      //   sceneLoader.switchScene(uiScene);
-      // });
+      console.log(`Switching from ${currScene} to ${targetScene}...`);
+      sceneLoader.switchScene(currScene, targetScene);
+      currScene = targetScene;
+      console.log('currScene:', currScene);
     });
   });
+
+  const gameStateMachine = StateMachine.getInstance(GameState.SplashState);
+
+  gameStateMachine.addState(GameState.SplashState, () => {
+    console.log('Loader is idle');
+    sceneLoader.addScene('splash', { alpha: 1 }, 500);
+
+    signal.once('LOADER:COMPLETE', () => {
+      sceneLoader.removeScene('splash', { alpha: 0 }, 500);
+      sceneLoader.addScene('ui', { alpha: 1 }, 500, 1);
+      sceneLoader.addScene('livingroom', { alpha: 1 }, 500, 0);
+      currScene = 'livingroom';
+      console.log('currScene:', currScene);
+      gameStateMachine.changeState(GameState.Playing);
+    });
+  });
+
+  gameStateMachine.addState(GameState.Playing, () => {
+    console.log('Game is playing');
+  });
+
+  gameStateMachine.changeState(GameState.SplashState);
 
   document.body.appendChild(app.canvas);
 })();

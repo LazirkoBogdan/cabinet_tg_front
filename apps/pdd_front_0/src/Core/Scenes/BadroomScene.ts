@@ -1,7 +1,7 @@
 import { Sprite, Text, Graphics, Assets, Container } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
 
-export class LivingroomScene extends AbstractScene {
+export class BadroomScene extends AbstractScene {
 background!: Sprite;
 
 constructor(params: any) {
@@ -14,7 +14,7 @@ private async init(): Promise<void> {
 }
 
 private async loadAssets(): Promise<void> {
-  const texture = Assets.cache.get('background_land.jpg');
+  const texture = Assets.cache.get('background_bedroom.png');
   this.background = new Sprite(texture);
   this.background.anchor.set(0.5);
   this.background.position.set(960, 540);

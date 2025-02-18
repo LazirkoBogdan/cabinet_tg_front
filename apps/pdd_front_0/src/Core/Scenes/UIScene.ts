@@ -2,14 +2,17 @@ import { Sprite, Text, Graphics, Assets, Container } from 'pixi.js';
 import { AbstractScene } from './AbstractScene';
 import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { sound } from '@pixi/sound';
+import { signal } from '../Service';
 
 export class UIScene extends AbstractScene {
   clickCount = 0;
   clickText!: Text;
   player!: Spine;
-  happyBG!: Sprite;
-  happyButton!: Graphics;
   happyFill!: Graphics;
+  washFill!: Graphics;
+  sleepFill!: Graphics;
+  hungerFill!: Graphics;
+  workFill!: Graphics;
   happinessLevel = 0;
   hoverTimeout: any;
   animationPlaying = false;
@@ -24,7 +27,43 @@ export class UIScene extends AbstractScene {
   private async init(): Promise<void> {
     await this.loadAssets();
     this.createUI();
-    this.createHappyButton();
+
+    // Create scene buttons via helper
+    this.createSceneButton({
+      x: 100,
+      y: 980,
+      signalName: 'SCENE:CHANGE_TO_LIVINGROOM',
+      iconAsset: 'icon_status_happy.png',
+      fillPropKey: 'happyFill',
+    });
+    this.createSceneButton({
+      x: 300,
+      y: 980,
+      signalName: 'SCENE:CHANGE_TO_BATHROOM',
+      iconAsset: 'icon_status_shower.png',
+      fillPropKey: 'washFill',
+    });
+    this.createSceneButton({
+      x: 500,
+      y: 980,
+      signalName: 'SCENE:CHANGE_TO_BADROOM',
+      iconAsset: 'icon_status_tired.png',
+      fillPropKey: 'sleepFill',
+    });
+    this.createSceneButton({
+      x: 700,
+      y: 980,
+      signalName: 'SCENE:CHANGE_TO_KITCHEN',
+      iconAsset: 'icon_status_hungry.png',
+      fillPropKey: 'hungerFill',
+    });
+    this.createSceneButton({
+      x: 900,
+      y: 980,
+      signalName: 'SCENE:CHANGE_TO_GAMEROOM',
+      iconAsset: 'play.png',
+      fillPropKey: 'workFill',
+    });
   }
 
   private async loadAssets(): Promise<void> {
@@ -32,14 +71,13 @@ export class UIScene extends AbstractScene {
       skeleton: 'cat.json',
       atlas: 'cat.atlas',
     });
-
     this.player.state.setAnimation(0, 'idle', true);
     this.setupPlayer();
   }
 
   private setupPlayer(): void {
-    this.player.x = 360;
-    this.player.y = 600;
+    this.player.x = 960;
+    this.player.y = 800;
     this.player.scale.set(0.5);
     this.player.eventMode = 'static';
     this.player.on('pointerover', this.onPlayerHoverStart, this);
@@ -49,6 +87,7 @@ export class UIScene extends AbstractScene {
     const bgSound = Assets.cache.get('1621_Background_Guitar_loop.wav');
     sound.add('bg', bgSound);
     sound.play('bg', { loop: true });
+
     const meow = Assets.cache.get('meow.wav');
     sound.add('meow', meow);
     const purr = Assets.cache.get('purr_meow.wav');
@@ -61,64 +100,82 @@ export class UIScene extends AbstractScene {
       fill: 0xffffff,
       fontWeight: 'bold',
     });
-
-    this.clickText.position.set(-170, 600);
+    this.clickText.anchor.set(0);
+    this.clickText.position.set(20, 20);
     this.addChild(this.clickText);
   }
 
-  private createHappyButton(): void {
+
+  private createSceneButton(options: {
+    x: number;
+    y: number;
+    signalName: string;
+    iconAsset: string;
+    fillPropKey: keyof UIScene;
+  }): Container {
+    const { x, y, signalName, iconAsset, fillPropKey } = options;
     const buttonWidth = 100;
     const buttonHeight = 100;
 
     const container = new Container();
-    container.position.set(-100, 750);
+    container.position.set(x, y);
     container.pivot.set(buttonWidth / 2, buttonHeight / 2);
-    this.addChild(container);
+    container.eventMode = 'static';
+    container.cursor = 'pointer';
+    container.on('pointerdown', () => {
+      console.log(
+        `Button clicked! Changing scene to ${signalName.replace(
+          'SCENE:CHANGE_TO_',
+          ''
+        )}Scene.`
+      );
+      signal.dispatch(signalName);
+    });
 
-    this.happyButton = new Graphics();
-    this.happyButton.lineStyle(2, 0x000000);
-    this.happyButton.drawRoundedRect(0, 0, buttonWidth, buttonHeight, 10);
-    this.happyButton.position.set(0, 0);
-    container.addChild(this.happyButton);
+    // Draw button outline.
+    const buttonGraphic = new Graphics();
+    buttonGraphic.lineStyle(2, 0x000000);
+    buttonGraphic.drawRoundedRect(0, 0, buttonWidth, buttonHeight, 10);
+    container.addChild(buttonGraphic);
 
+    // Create a circular mask.
     const mask = new Graphics();
     mask.beginFill(0xffffff);
     mask.drawCircle(buttonWidth / 2, buttonHeight / 2, buttonWidth / 2);
     mask.endFill();
     container.addChild(mask);
 
-    this.happyFill = new Graphics();
-    this.happyFill.mask = mask;
-    this.happyButton.addChild(this.happyFill);
+    // Create fill graphic and assign it to the corresponding property.
+    const fillGraphic = new Graphics();
+    fillGraphic.mask = mask;
+    buttonGraphic.addChild(fillGraphic);
+    (this as any)[fillPropKey] = fillGraphic;
 
-    this.happyBG = new Sprite(Assets.cache.get('icon_status_bg.png'));
-    this.happyBG.scale.set(0.1);
-    this.happyBG.anchor.set(0.5);
-    this.happyBG.position.set(buttonWidth / 2, buttonHeight / 2);
-    container.addChild(this.happyBG);
+    // Add button background sprite.
+    const buttonBG = new Sprite(Assets.cache.get('icon_status_bg.png'));
+    buttonBG.scale.set(0.1);
+    buttonBG.anchor.set(0.5);
+    buttonBG.position.set(buttonWidth / 2, buttonHeight / 2);
+    container.addChild(buttonBG);
 
-    const happyIcon = new Sprite(Assets.cache.get('icon_status_happy.png'));
-    happyIcon.scale.set(0.15);
-    happyIcon.anchor.set(0.5);
-    happyIcon.position.set(buttonWidth / 2, buttonHeight / 2);
-    container.addChild(happyIcon);
+    // Add icon sprite.
+    const icon = new Sprite(Assets.cache.get(iconAsset));
+    icon.scale.set(0.15);
+    icon.anchor.set(0.5);
+    icon.position.set(buttonWidth / 2, buttonHeight / 2);
+    container.addChild(icon);
 
-    this.updateHappyFill();
+    this.addChild(container);
+    return container;
   }
 
   private updateHappyFill(): void {
     const buttonWidth = 100;
     const buttonHeight = 100;
-
     this.happyFill.clear();
     this.happyFill.beginFill(0x00ff00);
     const fillHeight = (this.happinessLevel / 1000) * buttonHeight;
-    this.happyFill.drawRect(
-      0,
-      buttonHeight - fillHeight,
-      buttonWidth,
-      fillHeight
-    );
+    this.happyFill.drawRect(0, buttonHeight - fillHeight, buttonWidth, fillHeight);
     this.happyFill.endFill();
   }
 
@@ -138,7 +195,6 @@ export class UIScene extends AbstractScene {
           catReaction = Math.random() > 0.5 ? 'purr' : 'meow';
         } while (catReaction === previousSound);
         this.lastSoundPlayed = catReaction;
-
         sound.play(catReaction, { loop: false });
         this.player.state.addListener({
           complete: () => {
@@ -147,7 +203,6 @@ export class UIScene extends AbstractScene {
           },
         });
       }
-
       this.hoverInterval = setInterval(() => {
         if (this.happinessLevel < 1000) {
           this.clickCount++;
