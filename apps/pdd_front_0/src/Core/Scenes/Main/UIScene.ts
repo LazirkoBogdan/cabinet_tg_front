@@ -19,7 +19,7 @@ export class UIScene extends AbstractScene {
   animationPlaying = false;
   lastSoundPlayed = '';
   hoverInterval: any;
-  private fadeInterval: any;
+  fadeInterval: any;
   isSoundPlaying = false;
 
   constructor(params: any) {
@@ -34,8 +34,6 @@ export class UIScene extends AbstractScene {
   }
 
    private createUI(): void {
-
-
     const style = new TextStyle({
       fontFamily: 'Arial',
       fontSize: 36,
@@ -131,6 +129,20 @@ export class UIScene extends AbstractScene {
   // Зчитування сигналів
   private setupSignalListeners(): void {
     signal.on('SOUND:TOGGLE_SOUND', this.toggleSound);
+
+
+    console.warn('UIScene signal listeners set up');
+
+    signal.on('SCENE:CHANGE_TO_LIVINGROOM', () => this.updatePlayerCoordinates(1300, 800));
+    signal.on('SCENE:CHANGE_TO_BATHROOM', () => this.updatePlayerCoordinates(350, 410));
+    signal.on('SCENE:CHANGE_TO_BEDROOM', () => this.updatePlayerCoordinates(900, 600));
+    signal.on('SCENE:CHANGE_TO_KITCHEN', () => this.updatePlayerCoordinates(1600, 800));
+    signal.on('SCENE:CHANGE_TO_GAMEROOM', () => this.updatePlayerCoordinates(1400, 600));
+  }
+
+  private updatePlayerCoordinates(x: number, y: number): void {
+    this.player.position.set(x, y);
+    console.log(`Player moved to coordinates: (${x}, ${y})`);
   }
 
   // Функція для включення/виключення звуку
@@ -167,7 +179,7 @@ export class UIScene extends AbstractScene {
 
   private setupPlayer(): void {
     // Налаштування гравця (кота)
-    this.player.x = 960;
+    this.player.x = 1300;
     this.player.y = 800;
     this.player.scale.set(0.5);
     this.player.eventMode = 'static';
