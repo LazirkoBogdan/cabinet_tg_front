@@ -1,7 +1,7 @@
 import { Text, Graphics } from 'pixi.js';
-import { AbstractScene } from './AbstractScene';
-import { SplashLoader } from '../Entities/Splash/SplashLoader';
-import { Popup } from '../Entities/Popup/Popup';
+import { AbstractScene } from '../AbstractScene';
+import { SplashLoader } from '../../Entities/Splash/SplashLoader';
+import { Popup } from '../../Entities/Popup/Popup';
 
 export class SplashScene extends AbstractScene {
   private _params: any;

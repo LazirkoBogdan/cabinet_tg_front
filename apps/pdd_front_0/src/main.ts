@@ -2,16 +2,16 @@ import { Application, Assets, Sprite } from 'pixi.js';
 import { Spine } from '@esotericsoftware/spine-pixi-v8';
 import { Render } from './Core/Render/Render';
 import { SceneLoader } from './Core/Scenes/SceneLoader';
-import { SplashScene } from './Core/Scenes/SplashScene';
+import { SplashScene } from './Core/Scenes/Secondary/SplashScene';
 import { signal } from './Core/Service';
 import { StateMachine } from './Core/States/StateMachine';
-import { UIScene } from './Core/Scenes/UIScene';
-import { LivingroomScene } from './Core/Scenes/LivingroomScene';
-import { BathroomScene } from './Core/Scenes/BathroomScene';
-import { BadroomScene } from './Core/Scenes/BadroomScene';
-import { GameroomScene } from './Core/Scenes/GameroomScene';
-import { KitchenScene } from './Core/Scenes/KitchenScene';
-import { MenuScene } from './Core/Scenes/MenuScene';
+import { UIScene } from './Core/Scenes/Main/UIScene';
+import { LivingroomScene } from './Core/Scenes/Main/LivingroomScene';
+import { BathroomScene } from './Core/Scenes/Main/BathroomScene';
+import { BedroomScene } from './Core/Scenes/Main/BedroomScene';
+import { GameroomScene } from './Core/Scenes/Main/GameroomScene';
+import { KitchenScene } from './Core/Scenes/Main/KitchenScene';
+import { MenuScene } from './Core/Scenes/Secondary/MenuScene';
 import manifest from './assets/manifest.json';
 
 enum GameState {
@@ -75,7 +75,7 @@ enum GameState {
   const scenes = {
     livingroom: createScene(LivingroomScene, 'livingroom'),
     bathroom: createScene(BathroomScene, 'bathroom'),
-    badroom: createScene(BadroomScene, 'badroom'),
+    bedroom: createScene(BedroomScene, 'bedroom'),
     kitchen: createScene(KitchenScene, 'kitchen'),
     gameroom: createScene(GameroomScene, 'gameroom'),
     menu: createScene(MenuScene, 'menu'),
@@ -88,7 +88,7 @@ enum GameState {
   const sceneSwitchMap: Record<string, string> = {
     'SCENE:CHANGE_TO_LIVINGROOM': 'livingroom',
     'SCENE:CHANGE_TO_BATHROOM': 'bathroom',
-    'SCENE:CHANGE_TO_BADROOM': 'badroom',
+    'SCENE:CHANGE_TO_BEDROOM': 'bedroom',
     'SCENE:CHANGE_TO_KITCHEN': 'kitchen',
     'SCENE:CHANGE_TO_GAMEROOM': 'gameroom',
   };
