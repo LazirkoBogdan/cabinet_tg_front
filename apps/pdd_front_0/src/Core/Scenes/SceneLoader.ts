@@ -96,11 +96,13 @@ export class SceneLoader {
     if (duration > 0 && Object.keys(animation).length > 0) {
       easePromise(scene, animation, duration).then(() => {
         scene.hide();
+        console.log("Scene removed after animation");
         this.app.stage.removeChild(scene);
         this.activeScenes.delete(name);
       });
     } else {
       scene.hide();
+      console.log("Scene removed immediately");
       this.app.stage.removeChild(scene);
       this.activeScenes.delete(name);
     }
@@ -115,9 +117,9 @@ export class SceneLoader {
    * @param inAnimation Optional animation for the incoming scene.
    * @param duration Duration for both animations in milliseconds.
    */
-  public switchScene(oldName: string, newName: string, duration = 500): void {
+  public switchScene(oldName: string, newName: string, duration = 100): void {
     // Fade out and remove the current scene.
-    this.removeScene(oldName, { alpha: 0 }, duration);
+    this.removeScene(oldName, { alpha: 0 });
   
     // Retrieve the new scene.
     const newScene = this.registeredScenes.get(newName);

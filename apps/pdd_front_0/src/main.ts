@@ -11,6 +11,7 @@ import { BathroomScene } from './Core/Scenes/BathroomScene';
 import { BadroomScene } from './Core/Scenes/BadroomScene';
 import { GameroomScene } from './Core/Scenes/GameroomScene';
 import { KitchenScene } from './Core/Scenes/KitchenScene';
+import { MenuScene } from './Core/Scenes/MenuScene';
 import manifest from './assets/manifest.json';
 
 enum GameState {
@@ -24,6 +25,8 @@ enum GameState {
   const app = new Render();
   const sceneLoader = new SceneLoader(app);
   let currScene: string | null = null;
+
+
 
   console.error('manifest', manifest);
   Assets.resolver.basePath = './assets/';
@@ -75,6 +78,7 @@ enum GameState {
     badroom: createScene(BadroomScene, 'badroom'),
     kitchen: createScene(KitchenScene, 'kitchen'),
     gameroom: createScene(GameroomScene, 'gameroom'),
+    menu: createScene(MenuScene, 'menu'),
   };
 
   Object.entries(scenes).forEach(([key, scene]) =>
@@ -98,6 +102,19 @@ enum GameState {
       currScene = targetScene;
       console.log('currScene:', currScene);
     });
+  });
+
+  let isMenuOpen = false;
+  signal.on('SCENE:TOGGLE_MENU_SCENE', () => {
+    if(isMenuOpen){
+      console.log('Opening menu scene on top...');
+      sceneLoader.removeScene('menu', { alpha: 0 });
+    } else {
+      console.log('Opening menu scene on top...');
+      sceneLoader.addScene('menu', { alpha: 1 }, 500, 3);
+    }
+    isMenuOpen = !isMenuOpen;
+    console.log('isMenuOpen:', isMenuOpen);
   });
 
   const gameStateMachine = StateMachine.getInstance(GameState.SplashState);

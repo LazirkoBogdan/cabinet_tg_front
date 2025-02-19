@@ -28,7 +28,24 @@ export class UIScene extends AbstractScene {
     await this.loadAssets();
     this.createUI();
 
-    // Create scene buttons via helper
+    this.createUIButton({
+      x: 1700,
+      y: 75,
+      signalName: 'SOUND:TURN_OFF',
+      iconAsset: 'ui_button_sound_off.png',
+    });
+    this.createUIButton({
+      x: 1850,
+      y: 75,
+      signalName: 'SCENE:TOGGLE_MENU_SCENE',
+      iconAsset: 'ui_button_menu.png',
+    });
+    this.createUIButton({
+      x: 1850,
+      y: 225,
+      signalName: 'SCENE:OPEN_SHOP_SCENE',
+      iconAsset: 'ui_button_shop.png',
+    });
     this.createSceneButton({
       x: 100,
       y: 980,
@@ -105,6 +122,40 @@ export class UIScene extends AbstractScene {
     this.addChild(this.clickText);
   }
 
+  private createUIButton(options: {
+    x: number;
+    y: number;
+    signalName: string;
+    iconAsset: string;
+  }): Container {
+    const { x, y, signalName, iconAsset } = options;
+    const buttonWidth = 100;
+    const buttonHeight = 100;
+
+    const container = new Container();
+    container.position.set(x, y);
+    container.pivot.set(buttonWidth / 2, buttonHeight / 2);
+    container.eventMode = 'static';
+    container.cursor = 'pointer';
+    container.on('pointerdown', () => {
+      console.log(
+        `Button clicked! Changing scene to ${signalName.replace(
+          'SCENE:CHANGE_TO_',
+          ''
+        )}Scene.`
+      );
+      signal.dispatch(signalName);
+    });
+
+    const buttonBG = new Sprite(Assets.cache.get(iconAsset));
+    buttonBG.scale.set(0.08);
+    buttonBG.anchor.set(0.5);
+    buttonBG.position.set(buttonWidth / 2, buttonHeight / 2);
+    container.addChild(buttonBG);
+
+    this.addChild(container);
+    return container;
+  }
 
   private createSceneButton(options: {
     x: number;
@@ -132,33 +183,28 @@ export class UIScene extends AbstractScene {
       signal.dispatch(signalName);
     });
 
-    // Draw button outline.
     const buttonGraphic = new Graphics();
     buttonGraphic.lineStyle(2, 0x000000);
     buttonGraphic.drawRoundedRect(0, 0, buttonWidth, buttonHeight, 10);
     container.addChild(buttonGraphic);
 
-    // Create a circular mask.
     const mask = new Graphics();
     mask.beginFill(0xffffff);
     mask.drawCircle(buttonWidth / 2, buttonHeight / 2, buttonWidth / 2);
     mask.endFill();
     container.addChild(mask);
 
-    // Create fill graphic and assign it to the corresponding property.
     const fillGraphic = new Graphics();
     fillGraphic.mask = mask;
     buttonGraphic.addChild(fillGraphic);
     (this as any)[fillPropKey] = fillGraphic;
 
-    // Add button background sprite.
     const buttonBG = new Sprite(Assets.cache.get('icon_status_bg.png'));
     buttonBG.scale.set(0.1);
     buttonBG.anchor.set(0.5);
     buttonBG.position.set(buttonWidth / 2, buttonHeight / 2);
     container.addChild(buttonBG);
 
-    // Add icon sprite.
     const icon = new Sprite(Assets.cache.get(iconAsset));
     icon.scale.set(0.15);
     icon.anchor.set(0.5);
