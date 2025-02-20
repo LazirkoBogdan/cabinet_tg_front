@@ -13,6 +13,9 @@ import { GameroomScene } from './Core/Scenes/Main/GameroomScene';
 import { KitchenScene } from './Core/Scenes/Main/KitchenScene';
 import { MenuScene } from './Core/Scenes/Secondary/MenuScene';
 import manifest from './assets/manifest.json';
+import { FactoryRegistry } from './Core/Factory/FactoryRegistry';
+import { GameScene } from './configs/scenes/GameScene';
+import { TestScene } from './Core/Scenes/TestScene';
 
 enum GameState {
   SplashState = 'MainMenu',
@@ -26,20 +29,19 @@ enum GameState {
   const sceneLoader = new SceneLoader(app);
   let currScene: string | null = null;
 
-
-
   console.error('manifest', manifest);
   Assets.resolver.basePath = './assets/';
   await app.init({ background: '#000000', resizeTo: window });
+  document.body.appendChild(app.canvas);
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   //@ts-ignore
   globalThis.__PIXI_APP__ = app;
 
   await Assets.init({ manifest });
   Assets.backgroundLoadBundle(['default', 'bundle', 'game-screen']);
   await Assets.loadBundle('bundle');
-
+  const factory = FactoryRegistry.getInstance();
+  factory.registerDefaults();
   const splashScene = new SplashScene({
     id: 'splash',
     x: 960,
@@ -50,6 +52,12 @@ enum GameState {
   sceneLoader.registerScene('splash', splashScene);
 
   await Assets.loadBundle('game-screen');
+  const config: any = GameScene;
+
+  const gameSceneInstance = new TestScene(config);
+
+  // sceneLoader.registerScene('GameScene', gameSceneInstance);
+  // sceneLoader.addScene('GameScene', { alpha: 1 }, 500, 0);
 
   const uiScene = new UIScene({
     id: 'ui',
@@ -60,10 +68,7 @@ enum GameState {
   });
   sceneLoader.registerScene('ui', uiScene);
 
-  const createScene = <T>(
-    SceneClass: new (config: any) => T,
-    id: string
-  ): T =>
+  const createScene = <T>(SceneClass: new (config: any) => T, id: string): T =>
     new SceneClass({
       id,
       x: 0,
@@ -106,7 +111,7 @@ enum GameState {
 
   let isMenuOpen = false;
   signal.on('SCENE:TOGGLE_MENU_SCENE', () => {
-    if(isMenuOpen){
+    if (isMenuOpen) {
       console.log('Opening menu scene on top...');
       sceneLoader.removeScene('menu', { alpha: 0 });
     } else {

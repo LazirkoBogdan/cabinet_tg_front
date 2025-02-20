@@ -1,0 +1,1 @@
+export { FactoryRegistry } from './FactoryRegistry';
